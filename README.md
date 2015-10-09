@@ -1,5 +1,5 @@
 # Project Unnamed
-
+A search engine for human behavior. Search hashtags and user accounts to view heatmaps showing user activity or hashtag popularity.
 
 ##Team Members
 ### Ishan Roy Choudhury
