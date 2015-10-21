@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'admin/DataPush'
+
   get 'twitter_api/fetch_tweets'
 
   # The priority is based upon order of creation: first created -> highest priority.

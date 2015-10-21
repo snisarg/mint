@@ -1,2 +1,4 @@
 .DS_Store
 config/initializers/twitter_credentials.rb
+tmp/
+log/
