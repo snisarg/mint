@@ -1,4 +1,4 @@
 class AdminController < ApplicationController
-  def DataPush
+  def data_push
   end
 end

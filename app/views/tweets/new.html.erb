@@ -1,0 +1,10 @@
+<%= form_for :tweet, url: tweets_path do |f| %>
+    <p>
+      <%= f.label :'Enter Hashtag' %><br>
+      <%= f.text_field :hashtag %>
+    </p>
+
+    <p>
+      <%= f.submit :'Search for Tweets'%>
+    </p>
+<% end %>
