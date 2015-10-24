@@ -17,10 +17,14 @@ class TwitterApiController < ApplicationController
 
   def fetch_tweets(hashtag)
   	twitter_client = Twitter::REST::Client.new do |config|
-      config.consumer_key = ENV['CONSUMER_KEY']
-      config.consumer_secret = ENV['CONSUMER_KEY_SECRET']
-      config.access_token = ENV['ACCESS_TOKEN']
-      config.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
+      # config.consumer_key = ENV['CONSUMER_KEY']
+      # config.consumer_secret = ENV['CONSUMER_KEY_SECRET']
+      # config.access_token = ENV['ACCESS_TOKEN']
+      # config.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
+      config.consumer_key = '0dsFEadLRBYjDSdi6aF8mNSzK'
+      config.consumer_secret = 'wniHgxRLXA44qC8QYQ3K9pPBXElnGJrjPAlyJYC3Xi5jKs0EHx'
+      config.access_token = '3875855958-v22Y5C0PT73JKDrv9LP2x1v8G09rLiuUpRAPQsb'
+      config.access_token_secret = 'j7Tn6CmPMhBRLiUfByVWWg604HShgaTpOTkfJQ9eHsCxv'
     end
 
     return twitter_client.search(hashtag, result_type: "recent", geo_enabled: "true").take(5)
