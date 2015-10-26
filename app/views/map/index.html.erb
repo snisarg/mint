@@ -2,11 +2,25 @@
 
 <style>
 
+    .counties {
+        fill: none;
+    }
+
     .states {
         fill: none;
         stroke: #fff;
         stroke-linejoin: round;
     }
+
+    .q0-9 { fill:rgb(247,251,255); }
+    .q1-9 { fill:rgb(222,235,247); }
+    .q2-9 { fill:rgb(198,219,239); }
+    .q3-9 { fill:rgb(158,202,225); }
+    .q4-9 { fill:rgb(107,174,214); }
+    .q5-9 { fill:rgb(66,146,198); }
+    .q6-9 { fill:rgb(33,113,181); }
+    .q7-9 { fill:rgb(8,81,156); }
+    .q8-9 { fill:rgb(8,48,107); }
 
 </style>
 
@@ -16,7 +30,6 @@
 
 <script>
 
-
 var width = 960,
     height = 500;
 
@@ -24,18 +37,22 @@ var color = d3.scale.threshold()
         .domain([2, 4, 6, 8, 10])
         .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
 
-var getShadeColor = function (id) {
-    if (id < 2)
-        return '#f2f0f7';
-    if (id < 4)
-        return '#dadaeb';
-    if (id < 6)
-        return '#bcbddc';
-    if (id < 8)
-        return '#9e9ac8';
-    if (id < 10)
-        return '#54278f';
+function getShadeColor (id) {
 
+    var color = '#';
+
+    if (id < 2)
+        color += '#FFFFFF';
+    else if (id < 4)
+        color += '#E6E6FA';
+    else if (id < 6)
+        color += '#CCCCF5';
+    else if (id < 8)
+        color += '#9999EB';
+    else if (id < 10)
+        color += '#0000CC';
+
+    return color;
 };
 
 var path = d3.geo.path();
@@ -43,7 +60,6 @@ var path = d3.geo.path();
 var svg = d3.select("body").append("svg")
         .attr("width", width)
         .attr("height", height);
-
 
 queue()
         .defer(d3.json, "http://localhost:3000/us.json")
@@ -57,12 +73,13 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-}
+};
+
+var rateById = {};
 
 function ready(error, us, unemployment) {
     if (error) throw error;
 
-    var rateById = {};
 
     unemployment.forEach(function (d) {
         rateById[d.id] = Math.random() * 10;
@@ -72,16 +89,17 @@ function ready(error, us, unemployment) {
         console.log(getShadeColor(rateById[d.id]));
     });
 
+    // Set up counties
     svg.append("g")
             .attr("class", "counties")
             .selectAll("path")
             .data(topojson.feature(us, us.objects.counties).features)
             .enter().append("path")
             .attr("d", path)
-            .style("fill", function (d) {
-                return getRandomColor();
-            });//color(rateById[d.id]); });
+            .attr("class", function (d) { return quantize(d); })
 
+
+    // Draw state paths
     svg.append("path")
             .datum(topojson.mesh(us, us.objects.states, function (a, b) {
                 return a.id !== b.id;
@@ -89,6 +107,14 @@ function ready(error, us, unemployment) {
             .attr("class", "states")
             .attr("d", path);
 }
+
+
+function quantize(d) {
+    console.log(Math.min(8, ~~(rateById[d.id] * 9 / 12)));
+    return "q" + Math.floor(Math.random() * 10) + "-9";
+    //return "q" + Math.min(8, ~~(rateById[d.id] * 9 / 12)) + "-9";
+}
+
 
 </script>
 
