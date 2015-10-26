@@ -30,12 +30,23 @@
 
 <script>
 
+var rateById = d3.map();
 var width = 960,
     height = 500;
 
 var color = d3.scale.threshold()
         .domain([2, 4, 6, 8, 10])
         .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+
+function normalizeId(id) {
+    id %= 10000;
+    id %= 1000;
+    id %= 100;
+    id %= 10;
+
+    return id;
+
+}
 
 function getShadeColor (id) {
 
@@ -75,19 +86,9 @@ function getRandomColor() {
     return color;
 };
 
-var rateById = {};
 
 function ready(error, us, unemployment) {
     if (error) throw error;
-
-
-    unemployment.forEach(function (d) {
-        rateById[d.id] = Math.random() * 10;
-        console.log(rateById[d.id]);
-    });
-    unemployment.forEach(function (d) {
-        console.log(getShadeColor(rateById[d.id]));
-    });
 
     // Set up counties
     svg.append("g")
@@ -106,14 +107,27 @@ function ready(error, us, unemployment) {
             }))
             .attr("class", "states")
             .attr("d", path);
-}
 
 
-function quantize(d) {
-    console.log(Math.min(8, ~~(rateById[d.id] * 9 / 12)));
-    return "q" + Math.floor(Math.random() * 10) + "-9";
-    //return "q" + Math.min(8, ~~(rateById[d.id] * 9 / 12)) + "-9";
+    function quantize(d) {
+        var obj = unemployment[d.id];
+        var val = 0;
+        //console.log('new obj: \n')
+        for (var key in obj) {
+            //console.log(obj[key])
+            if (obj[key] > val)
+                val = obj[key];
+            console.log(normalizeId(val));
+        }
+        //console.log(val);
+        //console.log(Math.min(8, Math.floor(val / 10000)));
+        return "q" + normalizeId(val) + "-9";
+        //return "q" + Math.min(8, Math.floor(val / 1000)) + "-9";
+        //return "q" + Math.min(8, ~~(rateById[d.id] * 9 / 12)) + "-9";
+    }
+
 }
+
 
 
 </script>
