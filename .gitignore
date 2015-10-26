@@ -2,3 +2,6 @@
 config/initializers/twitter_credentials.rb
 tmp/
 log/
+*.idea
+.idea
+.idea/*

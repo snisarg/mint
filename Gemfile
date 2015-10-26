@@ -17,6 +17,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'twitter'
 
 gem 'tweetstream'
+# Use d3.js for map visualization
+gem 'd3-rails'
+# Use requirejs for importing JS libraries into front-end code
+gem 'requirejs-rails', '~> 0.9.9'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'map/index'
+
   get 'admin/DataPush'
 
   get 'twitter_api/fetch_tweets'
