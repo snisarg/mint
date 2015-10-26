@@ -74,7 +74,7 @@ var svg = d3.select("body").append("svg")
 
 queue()
         .defer(d3.json, "http://localhost:3000/us.json")
-        .defer(d3.tsv, "http://localhost:3000/unemployment.tsv")
+        .defer(d3.tsv, "http://localhost:3000/unemployment_tab.tsv")
         .await(ready);
 
 function getRandomColor() {
@@ -111,19 +111,21 @@ function ready(error, us, unemployment) {
 
     function quantize(d) {
         var obj = unemployment[d.id];
+        console.log(obj);
         var val = 0;
         //console.log('new obj: \n')
+
         for (var key in obj) {
             //console.log(obj[key])
-            if (obj[key] > val)
-                val = obj[key];
-            console.log(normalizeId(val));
+            if (key === 'rate')
+                val = obj[key] * 100;
+            console.log(val);
         }
         //console.log(val);
         //console.log(Math.min(8, Math.floor(val / 10000)));
-        return "q" + normalizeId(val) + "-9";
+        //return "q" + normalizeId(val) + "-9";
         //return "q" + Math.min(8, Math.floor(val / 1000)) + "-9";
-        //return "q" + Math.min(8, ~~(rateById[d.id] * 9 / 12)) + "-9";
+        return "q" + Math.min(8, ~~(val * 9 / 12)) + "-9";
     }
 
 }
