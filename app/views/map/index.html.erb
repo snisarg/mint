@@ -78,7 +78,7 @@ function ready(error, us, unemployment) {
             .data(topojson.feature(us, us.objects.counties).features)
             .enter().append("path")
             .attr("d", path)
-            .attr("class", function (d) { return quantize(d); })
+            .attr("class", function (d) { return quantize(d); });
 
 
     // Draw state paths
@@ -93,23 +93,20 @@ function ready(error, us, unemployment) {
     function quantize(d) {
         var scaling_factor = 100;
         var obj = unemployment[d.id];
-        var val = 0;
-        
+        var rate = 0;
+
         console.log(obj);
         //console.log('new obj: \n')
-
-        for (var key in obj) {
-            //console.log(obj[key])
-            if (key === 'rate')
-                val = obj[key];
-            console.log(val);
-        }
+        if (obj !== undefined && obj.hasOwnProperty('rate'))
+            rate = obj['rate'];
+        
+        console.log(rate);
 
         //console.log(val);
         //console.log(Math.min(8, Math.floor(val / 10000)));
         //return "q" + normalizeId(val) + "-9";
         //return "q" + Math.min(8, Math.floor(val / 1000)) + "-9";
-        return "q" + Math.min(8, ~~((val * scaling_factor) * 9 / 12)) + "-9";
+        return "q" + Math.min(8, ~~((rate * scaling_factor) * 9 / 12)) + "-9";
     }
 
 }
