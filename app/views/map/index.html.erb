@@ -53,8 +53,8 @@ var svg = d3.select("body").append("svg")
 
 // Load data and then call ready function
 queue()
-        .defer(d3.json, "http://localhost:3000/us.json")
-        .defer(d3.tsv, "http://localhost:3000/unemployment_tab.tsv")
+        .defer(d3.json, "http://www.tygiacalone.com/mint/us.json")
+        .defer(d3.tsv, "http://www.tygiacalone.com/mint/unemployment_tab.tsv")
         .await(ready);
 
 // For testing drawing colors
