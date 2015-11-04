@@ -2495,3 +2495,932 @@ Started GET "/assets/admin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-10-30 17:14:06 -0700
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 10:06:44 -0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (112.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (211.7ms)
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateTweets (20151023171254)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "tweets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "hashtag" varchar, "tweet_text" text, "location" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151023171254"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 10:11:40 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (244.9ms)
+Completed 200 OK in 1508ms (Views: 1450.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/map.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 10:11:42 -0800
+
+
+Started GET "/assets/map.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 10:11:42 -0800
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 10:11:46 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Akvyn92K9ha162LQv49kEtCyyZIiWGRp2rE5j/6IQ33ekbLkGeywbjEWLt36fRkihg0sSka7AssCcAJxGNVHXA==", "tweet"=>{"hashtag"=>"hello"}, "commit"=>"Search for Tweets"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tweets" ("hashtag", "tweet_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["hashtag", "hello"], ["tweet_text", "RT @ohkayewhatever: Hello. I wrote about how volunteering as a clinic defense escort changed how I feel about the abortion debate. https://…"], ["created_at", "2015-11-04 18:11:47.019670"], ["updated_at", "2015-11-04 18:11:47.019670"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tweets" ("hashtag", "tweet_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["hashtag", "hello"], ["tweet_text", "RT @uneresponsable: adèle - hello 🎧\nje pourrais écouter cette chanson des heures et des heures sans m'en lasser"], ["created_at", "2015-11-04 18:11:47.034297"], ["updated_at", "2015-11-04 18:11:47.034297"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "tweets" ("hashtag", "tweet_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["hashtag", "hello"], ["tweet_text", "RT @1dchartbra: Hello @CapitalOfficial, can you play ‘Perfect’ by @onedirection please? Thank you so much!"], ["created_at", "2015-11-04 18:11:47.037713"], ["updated_at", "2015-11-04 18:11:47.037713"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tweets" ("hashtag", "tweet_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["hashtag", "hello"], ["tweet_text", "RT @1dchartbra: Hello @1053zackfm, can you play ‘Perfect’ by @onedirection please? Thank you so much!\n#9DaysUntilMITAM"], ["created_at", "2015-11-04 18:11:47.041023"], ["updated_at", "2015-11-04 18:11:47.041023"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tweets" ("hashtag", "tweet_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["hashtag", "hello"], ["tweet_text", "Hello everyone, have a great Wednesday! Looking forward to reading your tweets :) (insight by https://t.co/qiCSAKzGHf)"], ["created_at", "2015-11-04 18:11:47.044763"], ["updated_at", "2015-11-04 18:11:47.044763"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/tweets/5
+Completed 302 Found in 1044ms (ActiveRecord: 11.4ms)
+
+
+Started GET "/tweets/5" for ::1 at 2015-11-04 10:11:47 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTweet Load (0.2ms)[0m  [1mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered tweets/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 147ms (Views: 110.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 11:54:08 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (77.6ms)
+Completed 200 OK in 877ms (Views: 815.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 11:54:18 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Adlkg9Yea8D0cPaU/QEAnTkEYB3xcTIorr5oNhOGUrTdAyT4EngtuHCNupm4832tb7uFxZWSVIp2f1PI9dtWlQ==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `filter' for #<Twitter::REST::Client:0x007fcb74dadff8>):
+  app/controllers/twitter_api_controller.rb:31:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:14:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (95.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (189.2ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 11:58:04 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Adlkg9Yea8D0cPaU/QEAnTkEYB3xcTIorr5oNhOGUrTdAyT4EngtuHCNupm4832tb7uFxZWSVIp2f1PI9dtWlQ==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 459ms (ActiveRecord: 0.6ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.138" port ):
+  app/controllers/twitter_api_controller.rb:31:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:14:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (129.6ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 11:58:06 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 11:58:11 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/NDCYNCwaDaSXzVxtnhTL+8yMU4r15CDKF0u4YIzWSEgCoIbFNYuThaieXzzii4fuY3Ulk809iHwnBUfZG5dAA==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.138" port ):
+  app/controllers/twitter_api_controller.rb:31:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:14:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.9ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 11:59:29 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 316ms (Views: 295.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 11:59:33 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bpVcrbKwGOMEI7w+yGxTFoiw74BMMdftg3LDE0qqleGyTxzWdtZem4De8DONni4m3g8KWCjSsU9bs/jtrPeRwA==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.138" port ):
+  app/controllers/twitter_api_controller.rb:31:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:14:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:01:47 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 68ms (Views: 61.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:01:52 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DcRjw/bWtsZ2ws7qLteJo1s0UXR9N19iU0LW45FGj6LRHiO4MrDwvvI/gudrJfSTDYu0rBnUOcCLg+0ddxuLgw==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 0.0ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.138" port ):
+  app/controllers/twitter_api_controller.rb:30:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (121.6ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:03:07 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 812ms (Views: 790.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:03:15 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YCY0F+336koEgPzxayMcurjdTKrEPAx9J4aoJ062IvC8/HRsKZGsMoB9sPwu0WGK7mKpcqDfat//R5PZqOsm0Q==", "tweet"=>{"hashtag"=>"hello"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.138" port ):
+  app/controllers/twitter_api_controller.rb:30:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (134.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (315.7ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:12:47 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 913ms (Views: 861.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:12:51 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p8GNF5sy2dUtl03wdrXd7YyX3JKWQxB1OSYpT+M5qrx7G81sX1SfralqAf0zR6Dd2ig5SvKgdtfh5xKxBWSunQ==", "tweet"=>{"hashtag"=>"fewfw"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+Errno::EADDRNOTAVAIL (Can't assign requested address - connect(2) for "199.59.148.229" port ):
+  app/controllers/twitter_api_controller.rb:30:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (159.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (112.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (330.7ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:13:10 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 291ms (Views: 284.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:13:14 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4o+FvOK/xoNtw7xkzO8mGMHkW4BXF/bAf9pGXfHaU2w+VcXHJtmA++k+8GmJHVsol1u+WDP0kGKnG32jF4dXTQ==", "tweet"=>{"hashtag"=>"fwe"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant Twitter::Rest):
+  app/controllers/twitter_api_controller.rb:19:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (121.9ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:24:37 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (249.5ms)
+Completed 200 OK in 2994ms (Views: 2932.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:24:45 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"scp+qfuBvfn8rPe37CHToCDlHOaaOGCngxl4P0bEWdltED7SP+f7gXhRu7qp066Qdlr5Pv7bBgVb2EPBoJld+A==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `access_token=' for TweetStream:Module):
+  app/controllers/twitter_api_controller.rb:30:in `block in fetch_tweets'
+  app/controllers/twitter_api_controller.rb:22:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (444.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (266.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (462.9ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:25:38 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 62ms (Views: 56.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:26:11 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xpT0kNBPaQ8o0tybokXfJKz0RXuec4ETp9xUTse+fy0aTrTrFCkvd6wvkJbnt6IU+kugo/qQ57F/HW+wIeN7DA==", "tweet"=>{"hashtag"=>"gvjdhs"}, "commit"=>"Search for Tweets"}
+Completed   in 36505ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:27:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (102.5ms)
+Completed 200 OK in 454ms (Views: 422.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:27:47 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iXgvEW48n4Y2L7yeWHjl/SqiSidkP4f6GgVSeB1d/EZVom9qqlrZ/rLS8JMdipjNfB2v/wDc4VjCxGmG+wD4Zw==", "tweet"=>{"hashtag"=>"kn"}, "commit"=>"Search for Tweets"}
+Completed   in 8148ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:31:31 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (232.2ms)
+Completed 200 OK in 1678ms (Views: 1634.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:31:39 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a+Hyi3W6cRGU18bmwvCNYEtTDje0ahVuz9QeAl4LZ3+3O7Lwsdw3aRAqiuuHAvBQHezr79CJc8wXFSX8uFZjXg==", "tweet"=>{"hashtag"=>"fwegre"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/ishan/Drive/2. CS 188/mint/app/controllers/twitter_api_controller.rb:64: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/twitter_api_controller.rb:64: syntax error, unexpected keyword_end, expecting end-of-input
+  app/controllers/tweets_controller.rb:15:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (662.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (145.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (265.5ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:33:11 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 701ms (Views: 660.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:33:16 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:33:19 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tBpKYirOukbx7ersZ5peZ1ldaoNfJcsWtknxxIIuIx1owAoZ7qj8PnUQpuEiaCNXD+KPWzvGrbRuiMo6ZHMnPA==", "tweet"=>{"hashtag"=>"efgre"}, "commit"=>"Search for Tweets"}
+Completed   in 32444ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:38:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (110.9ms)
+Completed 200 OK in 991ms (Views: 941.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:38:46 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wccvTUAGVwBNPin39XRLAR0JgnSbQLAmmKcJfh6lroUdHW82hGAReMnDZfqwhjYxS7ZnrP+j1oRAZjKA+PiqpA==", "tweet"=>{"hashtag"=>"h"}, "commit"=>"Search for Tweets"}
+Completed   in 67615ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:40:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 307ms (Views: 284.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:40:40 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 99ms (Views: 97.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:40:43 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OruB7rln6T0X/wQkwqA0lLUX5sFGJ15dnF6z+nnkl6nmYcGVfQGvRZMCSCmHUkmk46gDGSLEOP9En4gEn7mTiA==", "tweet"=>{"hashtag"=>"n"}, "commit"=>"Search for Tweets"}
+Completed   in 99262ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:42:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (110.0ms)
+Completed 200 OK in 917ms (Views: 856.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:42:47 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7uiEdEjmZgkbOh4zPSHN/RYB5BECA359jGLDDdcOcrAyMsQPjIAgcZ/HUj5407DNQL4ByWbgGN9Uo/jzMVN2kQ==", "tweet"=>{"hashtag"=>"j"}, "commit"=>"Search for Tweets"}
+Completed   in 333778ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:55:10 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (110.4ms)
+Completed 200 OK in 1286ms (Views: 1234.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:55:20 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BqurZFLCvlAs8luCFacRU3MvvbypBdye/4sK/fTrbQracesflqT4KKgPF49QVWxjJZBYZM3mujwnSjEDErZpKw==", "tweet"=>{"hashtag"=>"fkjewf"}, "commit"=>"Search for Tweets"}
+Completed   in 45062ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for ::1 at 2015-11-04 12:56:42 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TweetsController):
+  actionpack (4.2.4) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (2.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (99.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (213.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 12:56:46 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 465ms (Views: 220.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 12:56:49 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hC1sBqEe1+Vu1j6EHAjFXpr599E0KQ7MFLLunHpBJ6RY9yx9ZXiRneorcolZ+rhuzEYSCVDKaG7Mc9VinBwjhQ==", "tweet"=>{"hashtag"=>"fwew"}, "commit"=>"Search for Tweets"}
+Completed   in 68579ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:00:18 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (87.8ms)
+Completed 200 OK in 1400ms (Views: 1350.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:00:22 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hr9T9sYmGGTU6qT8LedEuL2dAgwYvnpxl8L/oIfyWv/CZRONAkBeHFAX6PFoFTmI6yLn1HxdHNNPA8ReYa9e3g==", "tweet"=>{"hashtag"=>"few"}, "commit"=>"Search for Tweets"}
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 809ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for ::1 at 2015-11-04 13:00:23 -0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TweetsController):
+  actionpack (4.2.4) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (157.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (325.6ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:00:38 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 566ms (Views: 565.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:01:37 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (207.9ms)
+Completed 200 OK in 3314ms (Views: 3061.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:01:53 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VrUAPegpshFNs7Z7/H7vU4ydDDlm0qqZp5GNW8NCBC+Kb0BGLE/0aclO+na5jJJj2iLp4QIxzDt/ULalJR8ADg==", "tweet"=>{"hashtag"=>"fwefw"}, "commit"=>"Search for Tweets"}
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 1087ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for ::1 at 2015-11-04 13:01:54 -0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TweetsController):
+  actionpack (4.2.4) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (134.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (354.5ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:02:27 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 207ms (Views: 183.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:02:30 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Spts02xmSHz5mNHqv/uh5zY9glHUEZz2vIao8KsoO7GWQSyoqAAOBH1lnef6CdzXYIJnibDy+lRkR5MOTXU/kA==", "tweet"=>{"hashtag"=>"fwef"}, "commit"=>"Search for Tweets"}
+Completed   in 3300ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:03:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (102.5ms)
+Completed 200 OK in 699ms (Views: 678.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:03:34 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 88ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:03:37 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AY54qDfpWCtFh4AUHBoTiJG/LM+M/oUj81mdKwoWTqrdVDjT848eU8F6zBlZ6G64xwDJF+gd44ErmKbV7EtKiw==", "tweet"=>{"hashtag"=>"fwe"}, "commit"=>"Search for Tweets"}
+Completed   in 39232ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for ::1 at 2015-11-04 13:04:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TweetsController):
+  actionpack (4.2.4) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (30.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (110.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (295.8ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:04:51 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (146.6ms)
+Completed 200 OK in 884ms (Views: 833.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:04:52 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 62ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:04:54 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KR2JscM/C8nfz5LERMvLGG05qX/vy909gmJ+ZhIsTyH1x8nKB1lNsVsy3skBObYoO4ZMp4sou59ao0WY9HFLAA==", "tweet"=>{"hashtag"=>"fwe"}, "commit"=>"Search for Tweets"}
+Completed   in 4106ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:05:52 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 304ms (Views: 285.8ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:05:58 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D6f0nBwLFiiRF04WFdO1SRElgt9Bm3rpHzjqt1GlzlnTfbTn2G1QUBXqAhtQIch5R5pnByV4HEvH+dFJt/jKeA==", "tweet"=>{"hashtag"=>"gegre"}, "commit"=>"Search for Tweets"}
+Completed   in 11913ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:07:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (236.9ms)
+Completed 200 OK in 3337ms (Views: 3208.5ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:07:47 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LKwH76TBXFJHPcLqvF79qnd6sfrAVspYTs/UPGI+GL/wdkeUYKcaKsPAjuf5rICaIcVUIqS1rPqWDu/ChGMcng==", "tweet"=>{"hashtag"=>"h"}, "commit"=>"Search for Tweets"}
+Completed   in 3621ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 13:08:36 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (252.1ms)
+Completed 200 OK in 5008ms (Views: 4957.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 13:08:49 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SZvDl/SQDBQebqzQ8hW+9gxtu/HCQTTtDfJZOzjNRhyVQYPsMPZKbJqT4N2358PGWtJeKaaiUk/VM2LF3pBCPQ==", "tweet"=>{"hashtag"=>"jj"}, "commit"=>"Search for Tweets"}
+Completed   in 26121ms (ActiveRecord: 0.0ms)

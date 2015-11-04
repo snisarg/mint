@@ -11,19 +11,20 @@ class TweetsController < ApplicationController
       # render plain: params[:tweet].inspect
       @tweet = Tweet.new(tweet_params)
       hashtag = @tweet.hashtag
-      tweet_content = TwitterApiController.new.fetch_tweets(hashtag)
-
-      tweet_content.each do |t|
-        if t != tweet_content.last
-          @next_tweet = Tweet.new
-          @next_tweet.hashtag = hashtag
-          @next_tweet.tweet_text = t.text
-          @next_tweet.save
-        else
-          @tweet.tweet_text = t.text
-          @tweet.save
-        end
-      end
+      # tweet_content = TwitterApiController.new.fetch_tweets(hashtag)
+      TwitterApiController.new.fetch_tweets(hashtag)
+      # puts tweet_content
+      # tweet_content.each do |t|
+      #   if t != tweet_content.last
+      #     @next_tweet = Tweet.new
+      #     @next_tweet.hashtag = hashtag
+      #     @next_tweet.tweet_text = t.text
+      #     @next_tweet.save
+      #   else
+      #     @tweet.tweet_text = t.text
+      #     @tweet.save
+      #   end
+      # end
       redirect_to @tweet
   end
 
