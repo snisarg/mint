@@ -56,6 +56,7 @@ class TwitterApiController < ApplicationController
         # @new_tweet.timestamp = tweet.timestamp_ms
         @new_tweet.save
 
+        #store new user
         if User.find_by(twitter_id: tweet.user.id).nil?
           @new_user = User.new
           @new_user.twitter_id = tweet.user.id
@@ -65,21 +66,20 @@ class TwitterApiController < ApplicationController
           @new_user.save
         end
 
-        puts "hiiii"
+        #store each new mention and new user if mentioned user doesn't exist
         tweet.user_mentions.each { |user_mention|
           if User.find_by(twitter_id: user_mention.id).nil?
-            @new_mentionned_user = User.new
-            @new_mentionned_user.twitter_id = user_mention.id
-            @new_mentionned_user.name = user_mention.name
-            @new_mentionned_user.screen_name = user_mention.screen_name
-            @new_mentionned_user.save
+            @new_mentioned_user = User.new
+            @new_mentioned_user.twitter_id = user_mention.id
+            @new_mentioned_user.name = user_mention.name
+            @new_mentioned_user.screen_name = user_mention.screen_name
+            @new_mentioned_user.save
           end
           @new_mention = Mention.new
           @new_mention.FK_tweet_id = @new_tweet.id
           @new_mention.FK_user_id = tweet.user.id
           @new_mention.save
         }
-
       rescue Exception => e
         puts "Error #{e}"
         next
