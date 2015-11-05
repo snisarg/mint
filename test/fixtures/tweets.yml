@@ -2,7 +2,8 @@
 
 one:
   text: MyText
-  coordinates: MyText
+  latitude: 1
+  longitude: 1
   country_code: MyText
   location_full_name: MyText
   FK_user_id: 1
@@ -15,7 +16,8 @@ one:
 
 two:
   text: MyText
-  coordinates: MyText
+  latitude: 1
+  longitude: 1
   country_code: MyText
   location_full_name: MyText
   FK_user_id: 1

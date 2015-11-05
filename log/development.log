@@ -5166,3 +5166,106 @@ Mysql2::Error: Incorrect string value: '\xF0\x9F\xA4\x94' for column 'text' at r
   [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('USGS EQ: M 2.4 - 10km ENE of Winnemucca, Nevada: DYFI? - ITime2015-11-05 02:59:07 UTC2015-11-04 18... https://t.co/uoxf06bmty #EarthQuake', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
   [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
 Completed   in 12149ms (ActiveRecord: 358.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateTweets (20151105015155)
+  [1m[36m (23.0ms)[0m  [1mDROP TABLE `tweets`[0m
+  [1m[35mSQL (0.9ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151105015155'
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtag_lists`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtags`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'mentions'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `mentions`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateTweets (20151105060714)
+  [1m[35m (110.8ms)[0m  CREATE TABLE `tweets` (`id` int(11) auto_increment PRIMARY KEY, `text` text, `latitude` int(11), `longitude` int(11), `country_code` text, `location_full_name` text, `FK_user_id` int(11), `in_reply_to_user_id` int(11), `in_reply_to_status_id` int(11), `retweet_count` int(11), `favorite_count` int(11), `timestamp` text, `source` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105060714')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtag_lists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'mentions'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `mentions`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`

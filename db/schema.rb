@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151105015155) do
+ActiveRecord::Schema.define(version: 20151105060714) do
 
   create_table "hashtag_lists", force: :cascade do |t|
     t.integer  "FK_tweet_id",   limit: 4
@@ -35,7 +35,8 @@ ActiveRecord::Schema.define(version: 20151105015155) do
 
   create_table "tweets", force: :cascade do |t|
     t.text     "text",                  limit: 65535
-    t.text     "coordinates",           limit: 65535
+    t.integer  "latitude",              limit: 4
+    t.integer  "longitude",             limit: 4
     t.text     "country_code",          limit: 65535
     t.text     "location_full_name",    limit: 65535
     t.integer  "FK_user_id",            limit: 4
