@@ -2,8 +2,8 @@ class CreateTweets < ActiveRecord::Migration
   def change
     create_table :tweets do |t|
       t.text :text
-      t.integer :latitude
-      t.integer :longitude
+      t.float :latitude
+      t.float :longitude
       t.text :country_code
       t.text :location_full_name
       t.integer :FK_user_id
