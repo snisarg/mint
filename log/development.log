@@ -3424,3 +3424,1745 @@ Started POST "/tweets" for ::1 at 2015-11-04 13:08:49 -0800
 Processing by TweetsController#create as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"SZvDl/SQDBQebqzQ8hW+9gxtu/HCQTTtDfJZOzjNRhyVQYPsMPZKbJqT4N2358PGWtJeKaaiUk/VM2LF3pBCPQ==", "tweet"=>{"hashtag"=>"jj"}, "commit"=>"Search for Tweets"}
 Completed   in 26121ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:03:12 -0800
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (99.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (224.8ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:06:40 -0800
+
+ActiveRecord::NoDatabaseError (Unknown database 'mint'):
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (115.5ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:07:04 -0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/ishan/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.2ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.5ms)
+  [1m[36m (326.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (207.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateTweets (20151023171254)
+  [1m[35m (134.6ms)[0m  CREATE TABLE `tweets` (`id` int(11) auto_increment PRIMARY KEY, `hashtag` varchar(255), `tweet_text` text, `location` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151023171254')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:07:18 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (119.9ms)
+Completed 200 OK in 888ms (Views: 853.7ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 16:08:44 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86jq+/2B0wac530B9odCloYWt3SUZ7trtk5Oj7twy3MvcqqAOeeVfhgaMQyzdT+m0KlSrPCE3cluj3VxXS3PUg==", "tweet"=>{"hashtag"=>"hello"}, "commit"=>"Search for Tweets"}
+Completed   in 12722ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:11:11 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 299ms (Views: 273.9ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 16:11:15 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C65CZfF4YlfFaYGbBX5NgDVQfyVNyxDd63zFF2SlVyHXdAIeNR4kL0GUzZZAjDCwY++a/Skodn8zvf7pgvhTAA==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant Twitter::Rest):
+  app/controllers/twitter_api_controller.rb:21:in `fetch_tweets'
+  app/controllers/tweets_controller.rb:14:in `create'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (155.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:11:28 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 84ms (Views: 72.1ms | ActiveRecord: 6.3ms)
+
+
+Started POST "/tweets" for ::1 at 2015-11-04 16:11:31 -0800
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hgs3JR6T4m2xzXTD4nROCTYbhATpKOwc0xA4ZNUum5ta0Xde2vWkFTUwOM6nhjM5YKRh3I3Lir4L0QOaM3Ofug==", "tweet"=>{"hashtag"=>"federer"}, "commit"=>"Search for Tweets"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`hashtag`, `tweet_text`, `created_at`, `updated_at`) VALUES ('federer', 'RT @dannymiche: #Paris R3\nDjokovic/Simon\nBerdych/Tsonga\nWawrinka/Troicki\nNadal/Anderson\nFerrer/Dimitrov\nFederer/Isner\nNishikori /Gasquet\nMu…', '2015-11-05 00:11:31', '2015-11-05 00:11:31')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`hashtag`, `tweet_text`, `created_at`, `updated_at`) VALUES ('federer', '#Paris #Octavos\nDjokovic-Simon\nBerdych-Tsonga\nWawrinka-Troicki\nNadal-Anderson\nFerrer-Dimitrov\nFederer-Isner\nNishikori-Gasquet\nMurray-Goffin', '2015-11-05 00:11:31', '2015-11-05 00:11:31')
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`hashtag`, `tweet_text`, `created_at`, `updated_at`) VALUES ('federer', 'RT @dannymiche: #Paris R3\nDjokovic/Simon\nBerdych/Tsonga\nWawrinka/Troicki\nNadal/Anderson\nFerrer/Dimitrov\nFederer/Isner\nNishikori /Gasquet\nMu…', '2015-11-05 00:11:31', '2015-11-05 00:11:31')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`hashtag`, `tweet_text`, `created_at`, `updated_at`) VALUES ('federer', 'Federer, Nadal y Murray, a tercera ronda en París https://t.co/b46VKNf5Vx', '2015-11-05 00:11:31', '2015-11-05 00:11:31')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`hashtag`, `tweet_text`, `created_at`, `updated_at`) VALUES ('federer', '#Nadal unimpressed with his defeat to #Federer in #Basel—bored of listening to his speech https://t.co/6pSd5N1jMg https://t.co/eX1ydUPsu2', '2015-11-05 00:11:31', '2015-11-05 00:11:31')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/tweets/5
+Completed 302 Found in 580ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/tweets/5" for ::1 at 2015-11-04 16:11:31 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTweet Load (0.5ms)[0m  [1mSELECT  `tweets`.* FROM `tweets` WHERE `tweets`.`id` = 5 LIMIT 1[0m
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 67.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets/4" for ::1 at 2015-11-04 16:11:38 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTweet Load (0.3ms)[0m  SELECT  `tweets`.* FROM `tweets` WHERE `tweets`.`id` = 4 LIMIT 1
+  Rendered tweets/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets/3" for ::1 at 2015-11-04 16:11:40 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTweet Load (0.4ms)[0m  [1mSELECT  `tweets`.* FROM `tweets` WHERE `tweets`.`id` = 3 LIMIT 1[0m
+  Rendered tweets/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/2" for ::1 at 2015-11-04 16:11:49 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTweet Load (0.4ms)[0m  SELECT  `tweets`.* FROM `tweets` WHERE `tweets`.`id` = 2 LIMIT 1
+  Rendered tweets/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/1" for ::1 at 2015-11-04 16:12:01 -0800
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.4ms)[0m  [1mSELECT  `tweets`.* FROM `tweets` WHERE `tweets`.`id` = 1 LIMIT 1[0m
+  Rendered tweets/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 16:42:42 -0800
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 246ms (Views: 237.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/admin/data_push" for ::1 at 2015-11-04 16:42:47 -0800
+Processing by AdminController#data_push as HTML
+Completed   in 206668ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 16:48:21 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 7543ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 16:50:29 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 347821ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateHashtags (20151105011558)
+  [1m[35m (148.4ms)[0m  CREATE TABLE `hashtags` (`id` int(11) auto_increment PRIMARY KEY, `text` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (18.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105011558')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateHashtagLists (20151105012220)
+  [1m[35m (141.3ms)[0m  CREATE TABLE `hashtag_lists` (`id` int(11) auto_increment PRIMARY KEY, `FK_tweet_id` int(11), `FK_hashtag_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105012220')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtag_lists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateUsers (20151105013506)
+  [1m[35m (178.1ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` text, `screen_name` text, `location` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105013506')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMentions (20151105013645)
+  [1m[35m (211.9ms)[0m  CREATE TABLE `mentions` (`id` int(11) auto_increment PRIMARY KEY, `FK_tweet_id` int(11), `FK_user_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105013645')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtag_lists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'mentions'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `mentions`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateMentions (20151105013645)
+  [1m[36m (36.7ms)[0m  [1mDROP TABLE `mentions`[0m
+  [1m[35mSQL (11.5ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151105013645'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtag_lists`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtags`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `tweets`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `users`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateUsers (20151105013506)
+  [1m[36m (3.2ms)[0m  [1mDROP TABLE `users`[0m
+  [1m[35mSQL (0.7ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151105013506'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtag_lists`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `hashtags`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `tweets`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateHashtagLists (20151105012220)
+  [1m[36m (51.2ms)[0m  [1mDROP TABLE `hashtag_lists`[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151105012220'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.7ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `hashtags`[0m
+  [1m[35m (0.2ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+
+  [1m[36m (0.1ms)[0m  [1mSHOW CREATE TABLE `tweets`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateHashtags (20151105011558)
+  [1m[36m (2.5ms)[0m  [1mDROP TABLE `hashtags`[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151105011558'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  SELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+
+  [1m[36m (0.2ms)[0m  [1mSHOW CREATE TABLE `tweets`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Migrating to CreateTweets (20151023171254)
+  [1m[36m (21.0ms)[0m  [1mDROP TABLE `tweets`[0m
+  [1m[35mSQL (1.3ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20151023171254'
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateHashtags (20151105011558)
+  [1m[35m (112.2ms)[0m  CREATE TABLE `hashtags` (`id` int(11) auto_increment PRIMARY KEY, `text` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105011558')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateHashtagLists (20151105012220)
+  [1m[35m (175.4ms)[0m  CREATE TABLE `hashtag_lists` (`id` int(11) auto_increment PRIMARY KEY, `FK_tweet_id` int(11), `FK_hashtag_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105012220')
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUsers (20151105013506)
+  [1m[35m (208.1ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` text, `screen_name` text, `location` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105013506')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMentions (20151105013645)
+  [1m[35m (153.3ms)[0m  CREATE TABLE `mentions` (`id` int(11) auto_increment PRIMARY KEY, `FK_tweet_id` int(11), `FK_user_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105013645')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `hashtag_lists`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'mentions'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `mentions`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateTweets (20151105015155)
+  [1m[35m (158.3ms)[0m  CREATE TABLE `tweets` (`id` int(11) auto_increment PRIMARY KEY, `text` text, `coordinates` text, `country_code` text, `location_full_name` text, `FK_user_id` int(11), `in_reply_to_user_id` int(11), `in_reply_to_status_id` int(11), `retweet_count` int(11), `favorite_count` int(11), `timestamp` text, `source` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151105015155')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtag_lists'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtag_lists`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'hashtags'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `hashtags`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'mentions'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `mentions`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'tweets'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `tweets`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'mint'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 17:58:16 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (60.5ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 3.0ms)
+
+ActionView::Template::Error (undefined method `hashtag' for #<Tweet:0x007f83a00519e8>):
+    1: <%= form_for :tweet, url: tweets_path do |f| %>
+    2:     <p>
+    3:       <%= f.label :'Enter Hashtag' %><br>
+    4:       <%= f.text_field :hashtag %>
+    5:     </p>
+    6: 
+    7:     <p>
+  app/views/tweets/new.html.erb:4:in `block in _app_views_tweets_new_html_erb___4584584220420224471_70101651447560'
+  app/views/tweets/new.html.erb:1:in `_app_views_tweets_new_html_erb___4584584220420224471_70101651447560'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (301.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (88.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (202.3ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 17:58:34 -0800
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 6875ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 17:58:50 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 2.9ms)
+
+ActionView::Template::Error (undefined method `hashtag' for #<Tweet:0x007fd76d033238>):
+    1: <%= form_for :tweet, url: tweets_path do |f| %>
+    2:     <p>
+    3:       <%= f.label :'Enter Hashtag' %><br>
+    4:       <%= f.text_field :hashtag %>
+    5:     </p>
+    6: 
+    7:     <p>
+  app/views/tweets/new.html.erb:4:in `block in _app_views_tweets_new_html_erb__2312080096696732149_70281613233520'
+  app/views/tweets/new.html.erb:1:in `_app_views_tweets_new_html_erb__2312080096696732149_70281613233520'
+
+
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/ishan/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (142.4ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:03:48 -0800
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 21182ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 18:13:52 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 632ms (Views: 601.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:14:03 -0800
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 83505ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:15:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 105819ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/tweets/new" for ::1 at 2015-11-04 18:17:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TweetsController#new as HTML
+  Rendered tweets/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 265ms (Views: 234.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/admin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/tweets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/map.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/twitter_api.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/map.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/tweets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/twitter_api.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-11-04 18:17:34 -0800
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:17:44 -0800
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 171643ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:20:45 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 5974ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:25:41 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Dear Bernie, If you go down this road, the Dems will go after you.', '2015-11-05 02:25:42', '2015-11-05 02:25:42')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#GhostHunters #GhostHunters', '2015-11-05 02:25:42', '2015-11-05 02:25:42')
+  [1m[36m (14.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Perfect windy afternoon 🍃🍂🌊💙 https://t.co/79Fncy7dkb', '2015-11-05 02:25:42', '2015-11-05 02:25:42')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8D\x83\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Perfect windy afternoon 🍃🍂🌊💙 https://t.co/79Fncy7dkb', '2015-11-05 02:25:42', '2015-11-05 02:25:42')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@twaimz wanting to win so so badly https://t.co/nKDRy2nUSS', '2015-11-05 02:25:43', '2015-11-05 02:25:43')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Should\'ve known your ass would done this shit to me.', '2015-11-05 02:25:43', '2015-11-05 02:25:43')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('This 🤔 shit 🤔 don\'t 🤔 add 🤔 up 🤔', '2015-11-05 02:25:43', '2015-11-05 02:25:43')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\xA4\x94 s...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('This 🤔 shit 🤔 don\'t 🤔 add 🤔 up 🤔', '2015-11-05 02:25:43', '2015-11-05 02:25:43')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Broo😂 @jordxnjxckson @Itssmayyaa @steezy_Ih8ryrx  https://t.co/Om4FwwCn2h', '2015-11-05 02:25:44', '2015-11-05 02:25:44')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82 @...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Broo😂 @jordxnjxckson @Itssmayyaa @steezy_Ih8ryrx  https://t.co/Om4FwwCn2h', '2015-11-05 02:25:44', '2015-11-05 02:25:44')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@msanchez15050 yea! It\'s in the comedy section. Sold', '2015-11-05 02:25:44', '2015-11-05 02:25:44')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('That\'s my replaces meant', '2015-11-05 02:25:45', '2015-11-05 02:25:45')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('i needa stop procrastinating :-(', '2015-11-05 02:25:45', '2015-11-05 02:25:45')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@__jakefair #sociopath', '2015-11-05 02:25:46', '2015-11-05 02:25:46')[0m
+  [1m[35m (6.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Someone hmu 🌌', '2015-11-05 02:25:46', '2015-11-05 02:25:46')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8C\x8C' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Someone hmu 🌌', '2015-11-05 02:25:46', '2015-11-05 02:25:46')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Fuuuuck Im craving chocolate cake so bad', '2015-11-05 02:25:46', '2015-11-05 02:25:46')[0m
+  [1m[35m (270.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('BRADLEY BEAL. BANG BANG', '2015-11-05 02:25:46', '2015-11-05 02:25:46')
+  [1m[36m (63.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@namyams Audrey Hepburn 😂', '2015-11-05 02:25:47', '2015-11-05 02:25:47')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@namyams Audrey Hepburn 😂', '2015-11-05 02:25:47', '2015-11-05 02:25:47')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Swear I can do a lot for you.', '2015-11-05 02:25:47', '2015-11-05 02:25:47')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Модель: Вигриян Саша https://t.co/dcBxbNPg9Y', '2015-11-05 02:25:47', '2015-11-05 02:25:47')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@adamrank @NFLfantasy trust me I watched it thanks for the advice and u can always call me slick', '2015-11-05 02:25:47', '2015-11-05 02:25:47')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@bbyriah_ lol oh no friends ? 😂💀👌🏾', '2015-11-05 02:25:48', '2015-11-05 02:25:48')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@bbyriah_ lol oh no friends ? 😂💀👌🏾', '2015-11-05 02:25:48', '2015-11-05 02:25:48')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Nala is more interested in the laser pointer than the little red dot. Does that make her dumb or smart? #LaserPets https://t.co/fUw8zU4uPM', '2015-11-05 02:26:48', '2015-11-05 02:26:48')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@jorydayne hey, great to meet you on Saturday! You’ll have to look me up when you’re back in town. Good luck w/ the move', '2015-11-05 02:26:49', '2015-11-05 02:26:49')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('The Aberration of Republican Debates https://t.co/vy5eBnSpiz @16campaignbites @jpeazy10 @yoanisanchez @AWallenmeyer @News5National', '2015-11-05 02:26:49', '2015-11-05 02:26:49')
+  [1m[36m (17.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('☹️', '2015-11-05 02:26:49', '2015-11-05 02:26:49')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Xscape x Just Kickin\' It🎶', '2015-11-05 02:26:49', '2015-11-05 02:26:49')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8E\xB6' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Xscape x Just Kickin\' It🎶', '2015-11-05 02:26:49', '2015-11-05 02:26:49')
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@WebsterBlake also of note: he was smoking a cig, wearing a Drake turtleneck sweater, &amp; driving a convertible. Poster boy 4 #midlifecrisis', '2015-11-05 02:26:50', '2015-11-05 02:26:50')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@TheCrashCourse love you', '2015-11-05 02:26:50', '2015-11-05 02:26:50')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@VCAPetHealth your McClave location is awful, been trying to reach out to someone to speak too, no answer', '2015-11-05 02:28:11', '2015-11-05 02:28:11')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('EVERYONE ON MARC\'S FOR HC YOU CAN DROP OFF YOUR STUFF AT MY HOUSE ANYTIME THIS WEEK OR ON SATURDAY‼️‼️ DM OR TEXT ME FOR THE ADDRESS😊😊', '2015-11-05 02:28:12', '2015-11-05 02:28:12')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x8A\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('EVERYONE ON MARC\'S FOR HC YOU CAN DROP OFF YOUR STUFF AT MY HOUSE ANYTIME THIS WEEK OR ON SATURDAY‼️‼️ DM OR TEXT ME FOR THE ADDRESS😊😊', '2015-11-05 02:28:12', '2015-11-05 02:28:12')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I love you. ❤️', '2015-11-05 02:28:12', '2015-11-05 02:28:12')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Lifesavictory girl', '2015-11-05 02:28:13', '2015-11-05 02:28:13')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Love this one https://t.co/VsqOzXbxeB', '2015-11-05 02:28:13', '2015-11-05 02:28:13')[0m
+  [1m[35m (13.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@_WesleyBD looooool you know that your the most annoying human I know no sweets for you', '2015-11-05 02:28:13', '2015-11-05 02:28:13')
+  [1m[36m (29.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@mrdevonbrown thank you, Devon 💕', '2015-11-05 02:28:13', '2015-11-05 02:28:13')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\x95' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@mrdevonbrown thank you, Devon 💕', '2015-11-05 02:28:13', '2015-11-05 02:28:13')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('sweeta than suga 😚💋 https://t.co/TUJ1jtuAr3', '2015-11-05 02:28:14', '2015-11-05 02:28:14')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x9A\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('sweeta than suga 😚💋 https://t.co/TUJ1jtuAr3', '2015-11-05 02:28:14', '2015-11-05 02:28:14')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Nashgrier \nLove you Nash!\nI dont hope we win, cause we will😂💖 https://t.co/JFXqNt52QA', '2015-11-05 02:28:15', '2015-11-05 02:28:15')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Nashgrier \nLove you Nash!\nI dont hope we win, cause we will😂💖 https://t.co/JFXqNt52QA', '2015-11-05 02:28:15', '2015-11-05 02:28:15')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@westcoasternet I\'m only mean to ones I love or owe me money.', '2015-11-05 02:28:16', '2015-11-05 02:28:16')
+  [1m[36m (31.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@RedTailInfy lol! Lifting heavier weights than they should, to try and impress people they THINK are watching.', '2015-11-05 02:28:16', '2015-11-05 02:28:16')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('all of Santa Maria power outage', '2015-11-05 02:28:16', '2015-11-05 02:28:16')
+  [1m[36m (46.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@keltronix but ur 30 now...get it together.', '2015-11-05 02:28:16', '2015-11-05 02:28:16')[0m
+  [1m[35m (5.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@ommaaarrrr7 thanks 💯', '2015-11-05 02:28:16', '2015-11-05 02:28:16')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\xAF' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@ommaaarrrr7 thanks 💯', '2015-11-05 02:28:16', '2015-11-05 02:28:16')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Miss my hat ... Where ever you are', '2015-11-05 02:28:17', '2015-11-05 02:28:17')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@genesisquiroz35 @kalissaaaa_3 fucken Kalissa keeps on roasting', '2015-11-05 02:28:17', '2015-11-05 02:28:17')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('fuck you too', '2015-11-05 02:28:17', '2015-11-05 02:28:17')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Damn😪🙏 https://t.co/IOgCrWNZn0', '2015-11-05 02:28:18', '2015-11-05 02:28:18')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\xAA\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Damn😪🙏 https://t.co/IOgCrWNZn0', '2015-11-05 02:28:18', '2015-11-05 02:28:18')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('homework or sleep.... lol sleep', '2015-11-05 02:28:19', '2015-11-05 02:28:19')[0m
+  [1m[35m (33.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Cuffing season is upon us', '2015-11-05 02:28:20', '2015-11-05 02:28:20')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Monet_Emani nah BRING THAT ASS HERE https://t.co/wDn1EOH0xC', '2015-11-05 02:28:20', '2015-11-05 02:28:20')[0m
+  [1m[35m (32.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('There is something about a closet that makes a skeleton terribly restless.\n~ Wilson Mizner\n\n#ALDUB16thWeeksary', '2015-11-05 02:28:20', '2015-11-05 02:28:20')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Spurs fans sick right now', '2015-11-05 02:28:20', '2015-11-05 02:28:20')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@biostockpicks i estimated/tweeted $CLVS &amp; $ACAD AA (&amp; approval within 6mo) 2months ago. Regarding, raise. lets wait for a month :)', '2015-11-05 02:28:21', '2015-11-05 02:28:21')
+  [1m[36m (7.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Cute naman @mainedcm @aldenrichards02 snap chat https://t.co/vio1mDGqvP', '2015-11-05 02:28:21', '2015-11-05 02:28:21')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('When your Bff never come down to see you @Izabel1623 @invertd999', '2015-11-05 02:28:21', '2015-11-05 02:28:21')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('this \"like\" shit on Twitter is bothering me lol', '2015-11-05 02:28:21', '2015-11-05 02:28:21')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@ER_Chamber', '2015-11-05 02:28:21', '2015-11-05 02:28:21')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('There\'s a cricket in my house and I\'m annoyed', '2015-11-05 02:28:21', '2015-11-05 02:28:21')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Y si no a dolar! https://t.co/BnmT5pMwV1', '2015-11-05 02:28:21', '2015-11-05 02:28:21')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@1027KIISFM @boytoyjesse @JoJoWright Top9@9 please play #Perfect by @onedirection \n#MadeInTheAM #Fr1Day13 \nhttps://t.co/y9B9AlptiG🐰', '2015-11-05 02:28:21', '2015-11-05 02:28:21')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x90\xB0' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@1027KIISFM @boytoyjesse @JoJoWright Top9@9 please play #Perfect by @onedirection \n#MadeInTheAM #Fr1Day13 \nhttps://t.co/y9B9AlptiG🐰', '2015-11-05 02:28:21', '2015-11-05 02:28:21')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('please do nto cal san francisco frisco please call it by its full name dwyane \"the rock\' johnson', '2015-11-05 02:30:25', '2015-11-05 02:30:25')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@jassmiiinneeee @maritzaaa_v my hooOOooOoouse 👸🏽', '2015-11-05 02:30:25', '2015-11-05 02:30:25')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x91\xB8\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@jassmiiinneeee @maritzaaa_v my hooOOooOoouse 👸🏽', '2015-11-05 02:30:25', '2015-11-05 02:30:25')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I wish I could be everything that you want ..', '2015-11-05 02:30:26', '2015-11-05 02:30:26')
+  [1m[36m (29.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@_Business1st people make it different ways... i make mine w/ chicken, hominy, tomatillos, onion, chiles, spices, lime, cilantro, garlic...', '2015-11-05 02:30:26', '2015-11-05 02:30:26')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Hope the @warriors smack the @LAClippers #GSW #DubNation #RivalryGame', '2015-11-05 02:30:26', '2015-11-05 02:30:26')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#janetworldtour vibing to warmup DJ #onfire #greatesthits #whathaveyoudoneformelately @ Janet… https://t.co/eqiMVAaVNA', '2015-11-05 02:30:26', '2015-11-05 02:30:26')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Lol this bitch literally can\'t keep any of her friends around.', '2015-11-05 02:30:26', '2015-11-05 02:30:26')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Is this the new way of flirting.  https://t.co/GDBgTvM5qB', '2015-11-05 02:30:26', '2015-11-05 02:30:26')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m excited for the Veterans Day assembly tomorrow.', '2015-11-05 02:30:27', '2015-11-05 02:30:27')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('God damnit joe biden', '2015-11-05 02:30:27', '2015-11-05 02:30:27')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Babe told me to shush when all I wanted to tell her was that we were getting married soon', '2015-11-05 02:30:27', '2015-11-05 02:30:27')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@martucci basically at your house #falettis', '2015-11-05 02:30:27', '2015-11-05 02:30:27')[0m
+  [1m[35m (11.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m in such a bad mood', '2015-11-05 02:30:27', '2015-11-05 02:30:27')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@fingerhandkat same', '2015-11-05 02:30:27', '2015-11-05 02:30:27')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@danipinhass look who\'s talking!!!', '2015-11-05 02:30:27', '2015-11-05 02:30:27')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@CohnReznick women @suwn meet +mentor. #crwomencan #givingback https://t.co/RKstOccBf1', '2015-11-05 02:30:27', '2015-11-05 02:30:27')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('aileen and I are hilarious n cute:/', '2015-11-05 02:30:27', '2015-11-05 02:30:27')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1250.8ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('... https://t.co/xZ4P9jPg8i', '2015-11-05 02:30:28', '2015-11-05 02:30:28')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('what the fuck?', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Stress can make you ugly? Oh well that explains a lot.', '2015-11-05 02:30:29', '2015-11-05 02:30:29')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Its cool. I\'m used to this.', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Me @tancysue_05 until December 25th https://t.co/W4pQQb8r9o', '2015-11-05 02:30:29', '2015-11-05 02:30:29')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@karinaa760 @Ya_BigMama duuudee😂😂😂 https://t.co/RoP66XXhad', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@karinaa760 @Ya_BigMama duuudee😂😂😂 https://t.co/RoP66XXhad', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Fitting room of the vintage thrift store. https://t.co/GETfBaNXPp', '2015-11-05 02:30:29', '2015-11-05 02:30:29')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Ramen @ 遊楽 Yu-Raku https://t.co/VIgx2dA9gI', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#GetMeRoomService https://t.co/DPjYNJYzwN', '2015-11-05 02:30:29', '2015-11-05 02:30:29')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@KinleesPhotos yayyyyyy', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('😂 https://t.co/LAvZn4oWTK', '2015-11-05 02:30:29', '2015-11-05 02:30:29')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82 h...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('😂 https://t.co/LAvZn4oWTK', '2015-11-05 02:30:29', '2015-11-05 02:30:29')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Wednesdays are our day', '2015-11-05 02:30:30', '2015-11-05 02:30:30')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('i love being around you.. i love your presence.', '2015-11-05 02:30:30', '2015-11-05 02:30:30')[0m
+  [1m[35m (3.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Damn Dj https://t.co/c12hdBfimh', '2015-11-05 02:30:30', '2015-11-05 02:30:30')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m in such a good mood.😋😋', '2015-11-05 02:30:30', '2015-11-05 02:30:30')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x8B\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m in such a good mood.😋😋', '2015-11-05 02:30:30', '2015-11-05 02:30:30')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('A for effort though. Guys don\'t really do that anymore.', '2015-11-05 02:30:32', '2015-11-05 02:30:32')
+  [1m[36m (17.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@roymeo \nLike if you like potty-humor.  \nRetweet if you are on the toilet.', '2015-11-05 02:30:32', '2015-11-05 02:30:32')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Listos !!! #TheSemaShowExperience #LasVegas #LuxorHotel #DeltaAirlines #SonyCenterSv #Diparvel… https://t.co/i9h30pJShX', '2015-11-05 02:30:32', '2015-11-05 02:30:32')
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Patience is the key to everything 👌🏽 @ Chowchilla, California https://t.co/Ykd9M5GkBd', '2015-11-05 02:30:33', '2015-11-05 02:30:33')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x91\x8C\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Patience is the key to everything 👌🏽 @ Chowchilla, California https://t.co/Ykd9M5GkBd', '2015-11-05 02:30:33', '2015-11-05 02:30:33')
+  [1m[35m (1.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@DrGMLaTulippe Sorry to hear it. I wouldn\'t wish it on anyone.', '2015-11-05 02:30:33', '2015-11-05 02:30:33')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#VoteForNash he deserves it😁 @Nashgrier', '2015-11-05 02:30:35', '2015-11-05 02:30:35')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x81 @...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#VoteForNash he deserves it😁 @Nashgrier', '2015-11-05 02:30:35', '2015-11-05 02:30:35')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Brady_danielle2 can I get that in writing', '2015-11-05 02:30:36', '2015-11-05 02:30:36')
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I can\'t wait till I get my own place with Gabriel . It\'s going to be dope coming home to him 😊', '2015-11-05 02:30:36', '2015-11-05 02:30:36')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x8A' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I can\'t wait till I get my own place with Gabriel . It\'s going to be dope coming home to him 😊', '2015-11-05 02:30:36', '2015-11-05 02:30:36')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed   in 348544ms (ActiveRecord: 2007.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:31:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 36236ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:32:21 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 21634ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:32:47 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('My goal this month is to make 6k lets see if I can do it #babysteps', '2015-11-05 02:32:48', '2015-11-05 02:32:48')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@RomanOtter I\'m pretty sure you\'ll soon be selling me a washer-dryer unit or introducing a circus act.', '2015-11-05 02:32:49', '2015-11-05 02:32:49')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('This time change got me 😴 wish I could be in Justin\'s bed and not mine whenever he\'s done with work', '2015-11-05 02:32:49', '2015-11-05 02:32:49')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\xB4 w...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('This time change got me 😴 wish I could be in Justin\'s bed and not mine whenever he\'s done with work', '2015-11-05 02:32:49', '2015-11-05 02:32:49')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m sick and I threw my back out. 😪😭', '2015-11-05 02:32:50', '2015-11-05 02:32:50')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\xAA\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m sick and I threw my back out. 😪😭', '2015-11-05 02:32:50', '2015-11-05 02:32:50')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@scoutbstein 😂😂😘😘', '2015-11-05 02:32:51', '2015-11-05 02:32:51')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@scoutbstein 😂😂😘😘', '2015-11-05 02:32:51', '2015-11-05 02:32:51')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Need someone to watch Bob Ross videos with', '2015-11-05 02:32:54', '2015-11-05 02:32:54')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@maryacenda pretty sure gonna get whitening as soon as mine come off just to save myself the trouble', '2015-11-05 02:32:54', '2015-11-05 02:32:54')[0m
+  [1m[35m (40.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@delaney_mastin you have a big asshole????? 💀😂😂', '2015-11-05 02:32:54', '2015-11-05 02:32:54')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\x80\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@delaney_mastin you have a big asshole????? 💀😂😂', '2015-11-05 02:32:54', '2015-11-05 02:32:54')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('💤😴💤😴💤😴💤 @ The Playboy Mansion https://t.co/KIRhTjOqqh', '2015-11-05 02:32:54', '2015-11-05 02:32:54')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\xA4\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('💤😴💤😴💤😴💤 @ The Playboy Mansion https://t.co/KIRhTjOqqh', '2015-11-05 02:32:54', '2015-11-05 02:32:54')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@sailor_mo0n he started threatening me that he was gonna lie and say that I hit him.. Wtf', '2015-11-05 02:32:55', '2015-11-05 02:32:55')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('😂😂😂😂😂', '2015-11-05 02:32:55', '2015-11-05 02:32:55')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('😂😂😂😂😂', '2015-11-05 02:32:55', '2015-11-05 02:32:55')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@CNN @CNNMoney https://t.co/yMFINSnPCZ', '2015-11-05 02:32:57', '2015-11-05 02:32:57')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('(민주화??)선생이란 자들이 이 나라 건국 대통령을 배를 뒤집은 \'세월호 선장\'에 비유하고, 현직 대통령을 \'바뀐 애\'라느니 태어나지 말았어야 할 인물로 아이들에게 가르치고 있다. 이것은 민주의 향유가 아니다. 민주주의의 타락이요 패륜이다. (증인)', '2015-11-05 02:32:57', '2015-11-05 02:32:57')[0m
+  [1m[35m (8.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Quiero caritas y chicharrones pero de los que venden en Guatemala 💕💕😻😻😻 #teodiodistancia 😭', '2015-11-05 02:32:57', '2015-11-05 02:32:57')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\x95\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Quiero caritas y chicharrones pero de los que venden en Guatemala 💕💕😻😻😻 #teodiodistancia 😭', '2015-11-05 02:32:57', '2015-11-05 02:32:57')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Completed   in 10280ms (ActiveRecord: 85.3ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:35:53 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('My kitty loooooves me!! #cute #cat #cats #animals #kittylove #kittycat https://t.co/X1t1j0RbCd', '2015-11-05 02:35:55', '2015-11-05 02:35:55')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Drinking a Stefan Urquelle by @noblealeworks at @noblealeworks — https://t.co/42ve3DsGFq', '2015-11-05 02:35:55', '2015-11-05 02:35:55')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('cutting my hair🙂', '2015-11-05 02:35:55', '2015-11-05 02:35:55')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x99\x82' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('cutting my hair🙂', '2015-11-05 02:35:55', '2015-11-05 02:35:55')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('L', '2015-11-05 02:35:56', '2015-11-05 02:35:56')
+  [1m[36m (39.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Snapchat me 😈 https://t.co/TWjQVa7Fvz', '2015-11-05 02:35:56', '2015-11-05 02:35:56')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x88 h...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Snapchat me 😈 https://t.co/TWjQVa7Fvz', '2015-11-05 02:35:56', '2015-11-05 02:35:56')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('IM SO MAD RIGHT NOW', '2015-11-05 02:35:58', '2015-11-05 02:35:58')
+  [1m[36m (4.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('OMFG im about fucken go off on everyone is in house', '2015-11-05 02:35:58', '2015-11-05 02:35:58')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('최근 탈북자들의 인기가 급상승하고 있습니다. “이만갑”이 인기를 얻자, “남남북녀”, “잘살아보세” 등 탈북자들의 무대가 급 확장되면서 서울광수들의 인기가 상종가를 치고 있습니다. 이분들 모두는 국민들에 애국자로 각인돼 있습니다. (지만원)', '2015-11-05 02:35:58', '2015-11-05 02:35:58')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Duhhhh https://t.co/7p9ZLOtaoe', '2015-11-05 02:35:58', '2015-11-05 02:35:58')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Like my cousin at the SUTA out in Utah be mad at him because i call him mormon 😂', '2015-11-05 02:35:58', '2015-11-05 02:35:58')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x82' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Like my cousin at the SUTA out in Utah be mad at him because i call him mormon 😂', '2015-11-05 02:35:58', '2015-11-05 02:35:58')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('🎶 🎶 🎶\n\n...Name that tune.', '2015-11-05 02:35:59', '2015-11-05 02:35:59')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8E\xB6 \xF0...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('🎶 🎶 🎶\n\n...Name that tune.', '2015-11-05 02:35:59', '2015-11-05 02:35:59')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('No more. Hi Mommyeee! Hi PopEeee. My love for you is unquestionable undeniable. Workin on it. God knows maybe new jt https://t.co/5HnqtTb98q', '2015-11-05 02:36:00', '2015-11-05 02:36:00')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('https://t.co/CrwAadzAX1', '2015-11-05 02:36:00', '2015-11-05 02:36:00')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Mounds of them have arrived! #boxinggloves #keychains #instore #boxing @ Elisabeth Weinstock https://t.co/bHy0KpXV4v', '2015-11-05 02:36:01', '2015-11-05 02:36:01')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('she’s a runner, rebel and a stunner on her merry way sayin baby what you gonna', '2015-11-05 02:36:01', '2015-11-05 02:36:01')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('\"Tears of joy\" I didn\'t believe that til now❤️', '2015-11-05 02:36:01', '2015-11-05 02:36:01')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@oscartistic @_stephik @ me 3', '2015-11-05 02:36:01', '2015-11-05 02:36:01')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Wearing thigh-high boots to tonight\'s @americanexpress movie screening because #Bond. #Amex007 #AmexAmbassador', '2015-11-05 02:36:01', '2015-11-05 02:36:01')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('reunited with mash today❤️ https://t.co/9VXhuYbpet', '2015-11-05 02:36:01', '2015-11-05 02:36:01')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Fuck all these fucking electronic hoes', '2015-11-05 02:36:01', '2015-11-05 02:36:01')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@sierrastarbuck @hollisterwhite honestly don\'t know what to do with my life anymore 💔💔🏐', '2015-11-05 02:36:01', '2015-11-05 02:36:01')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\x94\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@sierrastarbuck @hollisterwhite honestly don\'t know what to do with my life anymore 💔💔🏐', '2015-11-05 02:36:01', '2015-11-05 02:36:01')
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Completed   in 7944ms (ActiveRecord: 74.9ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:45:46 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('VEGAS BABY 🙏😻#hookit #bmx @ Las Vegas, Nevada https://t.co/fd1MepvrF9', '2015-11-05 02:45:48', '2015-11-05 02:45:48')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x99\x8F\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('VEGAS BABY 🙏😻#hookit #bmx @ Las Vegas, Nevada https://t.co/fd1MepvrF9', '2015-11-05 02:45:48', '2015-11-05 02:45:48')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('That\'s me 😊 https://t.co/RhcSHKlqg6', '2015-11-05 02:45:48', '2015-11-05 02:45:48')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\x8A h...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('That\'s me 😊 https://t.co/RhcSHKlqg6', '2015-11-05 02:45:48', '2015-11-05 02:45:48')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('CP3 and Chef Curry matching up', '2015-11-05 02:45:48', '2015-11-05 02:45:48')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('just wanna spend my time being your girl', '2015-11-05 02:45:48', '2015-11-05 02:45:48')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@sssonalika1 @oliveeyess @me_puri_ @monikap221985 @RKianz @CrazyyyBird @RemyaVenkitesh Yep need to prep dinner b4 that bfn!!', '2015-11-05 02:45:49', '2015-11-05 02:45:49')[0m
+  [1m[35m (52.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@_ilinares you think so ? Kendrick gotta stay', '2015-11-05 02:45:49', '2015-11-05 02:45:49')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Sandra Bullock is a underrated old baddie', '2015-11-05 02:45:49', '2015-11-05 02:45:49')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('The struggle is real.  https://t.co/rdmAjESa2s', '2015-11-05 02:45:50', '2015-11-05 02:45:50')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@yotecoo ily too Imy', '2015-11-05 02:45:50', '2015-11-05 02:45:50')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('he is not the sun, you are', '2015-11-05 02:45:50', '2015-11-05 02:45:50')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('https://t.co/GbeeazzIUA', '2015-11-05 02:45:50', '2015-11-05 02:45:50')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('1224 sexual favors later....', '2015-11-05 02:45:50', '2015-11-05 02:45:50')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Country music is my shit', '2015-11-05 02:45:50', '2015-11-05 02:45:50')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('pizza coma 🙃😁😁😴💤', '2015-11-05 02:45:50', '2015-11-05 02:45:50')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x99\x83\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('pizza coma 🙃😁😁😴💤', '2015-11-05 02:45:50', '2015-11-05 02:45:50')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('My All Time Favorite #SJSharks Player!!!! https://t.co/Hv0xu2oQXi', '2015-11-05 02:45:52', '2015-11-05 02:45:52')[0m
+  [1m[35m (30.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('i\'m so happy about surume being on the cover page  today\ni fucking love that kraken so much', '2015-11-05 02:45:52', '2015-11-05 02:45:52')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@molllly_p @luzerlol_ 😩😩😩', '2015-11-05 02:45:52', '2015-11-05 02:45:52')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\xA9\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@molllly_p @luzerlol_ 😩😩😩', '2015-11-05 02:45:52', '2015-11-05 02:45:52')
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Snapchat selfie vs camera selfie https://t.co/Dz2PPutofL', '2015-11-05 02:45:53', '2015-11-05 02:45:53')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('homework is high key stressing me out rn', '2015-11-05 02:45:53', '2015-11-05 02:45:53')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@DavidWieck thank you dave ☺️', '2015-11-05 02:45:53', '2015-11-05 02:45:53')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('People suck', '2015-11-05 02:45:53', '2015-11-05 02:45:53')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I just realized I forgot to record AHS tonight https://t.co/Y31NXbvE9L', '2015-11-05 02:45:53', '2015-11-05 02:45:53')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Look I know girls love Beyoncé', '2015-11-05 02:45:53', '2015-11-05 02:45:53')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Speak to me, clothes. You make my ❤️ smile. https://t.co/VuwlKbYqjO', '2015-11-05 02:45:53', '2015-11-05 02:45:53')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('The NFL will not move SBowl from Houston. After what happened to Kluwe, Ayanbadejo and Sam,we know their homophobic https://t.co/q6J0qEhwoR', '2015-11-05 02:45:53', '2015-11-05 02:45:53')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@MarcoCiappelli thank you so much for following me Marco.\nPat', '2015-11-05 02:45:53', '2015-11-05 02:45:53')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed   in 6928ms (ActiveRecord: 115.1ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:46:25 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@allizae_lee let\'s run it', '2015-11-05 02:46:26', '2015-11-05 02:46:26')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('no I do not think its a coincidence that Daddy Issues is 4 minutes and 20 seconds long.', '2015-11-05 02:46:26', '2015-11-05 02:46:26')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('He is a Matt Ryan type. You will get good production with the occasional mistakes/off days. https://t.co/9PIcYwfXtI', '2015-11-05 02:46:26', '2015-11-05 02:46:26')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Alright everyone, leta find wookie monster. Whoever finds her, will be featured in @THEPACOSHOW  stream https://t.co/L2qB3TQJj3', '2015-11-05 02:46:26', '2015-11-05 02:46:26')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@bradTmusic  \nThank You For FM\nHere\'s an article I wrote about Trump and McCain\nhttps://t.co/PJnmAFbDvg https://t.co/ZjmkrOWkF9', '2015-11-05 02:46:26', '2015-11-05 02:46:26')[0m
+  [1m[35m (37.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Studying wokenomics', '2015-11-05 02:46:26', '2015-11-05 02:46:26')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@RachQuitlol Clone yourself then you can go to both!', '2015-11-05 02:46:27', '2015-11-05 02:46:27')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Ready to Rockkk!!! #DIRENGREY San Francisco 💀👊✨ #neverfreefromtheawakening https://t.co/SyQfl5H5pF', '2015-11-05 02:46:27', '2015-11-05 02:46:27')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x92\x80\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Ready to Rockkk!!! #DIRENGREY San Francisco 💀👊✨ #neverfreefromtheawakening https://t.co/SyQfl5H5pF', '2015-11-05 02:46:27', '2015-11-05 02:46:27')
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I’ve picked Alabama to be my @DrPepper #OneFinalTeam. https://t.co/1qdsfwv4Z3', '2015-11-05 02:46:28', '2015-11-05 02:46:28')[0m
+  [1m[35m (16.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Aye causal week at work', '2015-11-05 02:46:28', '2015-11-05 02:46:28')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@EricTsuchiya Happy birthday bro, hope you eat ass tonight', '2015-11-05 02:46:28', '2015-11-05 02:46:28')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I have choir songs in my head 😭', '2015-11-05 02:46:29', '2015-11-05 02:46:29')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x98\xAD' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I have choir songs in my head 😭', '2015-11-05 02:46:29', '2015-11-05 02:46:29')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed   in 5491ms (ActiveRecord: 70.8ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 18:49:00 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 44623ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:00:04 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 142968ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:02:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 152823ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:05:21 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 191427ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:08:43 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 21146ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:09:16 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 28583ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:10:04 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 58175ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:12:12 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 195382ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:15:48 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 137569ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:18:12 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 80397ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:22:57 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 104559ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:26:13 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 18562ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:26:47 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 108354ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:28:51 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+Completed   in 15252ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter_api/fetch_tweets" for ::1 at 2015-11-04 19:31:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TwitterApiController#fetch_tweets as HTML
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (14.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I hate natomas rn', '2015-11-05 03:31:40', '2015-11-05 03:31:40')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Shower was perfect work stress is gone now lol', '2015-11-05 03:31:40', '2015-11-05 03:31:40')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I fav very few sophomores', '2015-11-05 03:31:40', '2015-11-05 03:31:40')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('My coworker just used her teeth as a bottle opener.. Are college students even human???', '2015-11-05 03:31:40', '2015-11-05 03:31:40')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I was so excited for the middle finger emoji but I never use it tbh', '2015-11-05 03:31:41', '2015-11-05 03:31:41')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Don\'t break something  https://t.co/F28kp3InQh', '2015-11-05 03:31:41', '2015-11-05 03:31:41')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m not interested in having half-ass anything.. Let alone half-ass friendship/relationships.', '2015-11-05 03:31:41', '2015-11-05 03:31:41')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@ria_wade34 di kita mkita , binocular needed, east to west tayo lol', '2015-11-05 03:31:42', '2015-11-05 03:31:42')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@marjoriemliu feels like I JUST got this poster when in reality I\'ve been SO excited for almost a year! readin time! https://t.co/a11yO5GRDp', '2015-11-05 03:31:42', '2015-11-05 03:31:42')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#wcw', '2015-11-05 03:31:42', '2015-11-05 03:31:42')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('How about I shoulder check that chin cuhh!jpjp https://t.co/ldxzBWw5wv', '2015-11-05 03:31:42', '2015-11-05 03:31:42')[0m
+  [1m[35m (35.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#LancerCrazy in the making https://t.co/PVbMiyDBAM', '2015-11-05 03:31:42', '2015-11-05 03:31:42')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Happy birthday Payton hope your day was amazing  @PaytonConley73', '2015-11-05 03:31:42', '2015-11-05 03:31:42')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Karen__Manzano vamos chivas un gol  vamos https://t.co/6W8iciW7nn', '2015-11-05 03:31:42', '2015-11-05 03:31:42')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('When a good 3/4ths of your suitcase is for advertising your mom.... But hey, I\'ll be there!! https://t.co/M8WV5yJIIt', '2015-11-05 03:31:42', '2015-11-05 03:31:42')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@savyjam @YouTube @mainedcm @aldenrichards02 ang cute ! Pati boses mo cute . Ako una nag like Sa YouTube ha? #ALDUB16thWeeksary', '2015-11-05 03:31:43', '2015-11-05 03:31:43')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('We\'re not promised tomorrow..', '2015-11-05 03:31:43', '2015-11-05 03:31:43')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Guapo started the Dab', '2015-11-05 03:31:43', '2015-11-05 03:31:43')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('we ain\'t \" relationship \"  https://t.co/nYPF440RVo', '2015-11-05 03:31:43', '2015-11-05 03:31:43')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('A$$ A$$ A$$ p1 // Class tonight was so lit!!!  brinnnicole @ Millennium Dance Complex https://t.co/Z13VxAYcrD', '2015-11-05 03:31:44', '2015-11-05 03:31:44')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Kale crunch salad with chicken, grapefruit, avocado and other goodies.… https://t.co/mFbVOhEdBc', '2015-11-05 03:31:44', '2015-11-05 03:31:44')[0m
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@jack Awesome. Your companies are awesome.#LoveThanksRespect https://t.co/WijGble3qJ', '2015-11-05 03:31:44', '2015-11-05 03:31:44')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@judylaine Once I cheated and found out who won I never watched the finale! And yes, I think Hannah\'s social media presence helped since', '2015-11-05 03:31:44', '2015-11-05 03:31:44')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (47.2ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('#USGS M 2.4 - 10km ENE of Winnemucca, Nevada: DYFI? - ITime2015-11-05 02:59:07 UTC2015-11-04 18:59:07 -08:... https://t.co/hE9jRwWuq3 #SM', '2015-11-05 03:31:45', '2015-11-05 03:31:45')
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@_serenaramirez @KendallJenner', '2015-11-05 03:31:45', '2015-11-05 03:31:45')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('LA niggas be the craziest', '2015-11-05 03:31:45', '2015-11-05 03:31:45')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Our Top Tweets because I\'m the best in the World like Lt. Ronald Speirs of the 506th Parachute Infantry Regiment https://t.co/54gLHCTsJ1', '2015-11-05 03:31:45', '2015-11-05 03:31:45')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I cracked my chromebook 🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼', '2015-11-05 03:31:45', '2015-11-05 03:31:45')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8F\xBC\xF0\x9F...' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I cracked my chromebook 🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼🏼', '2015-11-05 03:31:45', '2015-11-05 03:31:45')
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Well dam https://t.co/gcgM8wIFQC', '2015-11-05 03:31:46', '2015-11-05 03:31:46')[0m
+  [1m[35m (52.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('they super late…hannibal burress addressed this question during the summer lol https://t.co/bG2dffFINY', '2015-11-05 03:31:46', '2015-11-05 03:31:46')
+  [1m[36m (12.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Give back some warmth, love, and thanks this season to families in our community by donating!  https://t.co/gpfmqWh8Yl', '2015-11-05 03:31:46', '2015-11-05 03:31:46')[0m
+  [1m[35m (27.5ms)[0m  COMMIT
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'ve been waiting for this letter since I was twelve years old...we\'re going to college!⛏ #UTEP https://t.co/9gi1HCXNjy', '2015-11-05 03:31:46', '2015-11-05 03:31:46')
+  [1m[36m (3.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m at bellagio gardens in Vegas, NV https://t.co/fu2TXNpiyX https://t.co/pgNpDi00K7', '2015-11-05 03:31:47', '2015-11-05 03:31:47')[0m
+  [1m[35m (17.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@BloombergWest finally. There is a god. Please now leave Bwest alone.@CoryTV should the guest host when Emily is on vacation. All good.', '2015-11-05 03:31:47', '2015-11-05 03:31:47')
+  [1m[36m (14.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('1, 2 step 🏻', '2015-11-05 03:31:47', '2015-11-05 03:31:47')[0m
+Mysql2::Error: Incorrect string value: '\xF0\x9F\x8F\xBB' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('1, 2 step 🏻', '2015-11-05 03:31:47', '2015-11-05 03:31:47')
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Life ain\'t easy man', '2015-11-05 03:31:48', '2015-11-05 03:31:48')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('(USGS) M 2.4 - 10km ENE of Winnemucca, Nevada: DYFI? - ITime2015-11-05 02:59:07 UTC2015-11-04 18:59:07 -08:00 ... https://t.co/BemDii2Oef', '2015-11-05 03:31:48', '2015-11-05 03:31:48')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('LOL I\'M OBSESSED  https://t.co/4qgwoubAH6', '2015-11-05 03:31:48', '2015-11-05 03:31:48')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I\'m over today. Yesterday. Tomorrow. This month. Heck even this year.', '2015-11-05 03:31:48', '2015-11-05 03:31:48')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I think I might cry a little bit and call it a night 🤔', '2015-11-05 03:31:48', '2015-11-05 03:31:48')
+Mysql2::Error: Incorrect string value: '\xF0\x9F\xA4\x94' for column 'text' at row 1: INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I think I might cry a little bit and call it a night 🤔', '2015-11-05 03:31:48', '2015-11-05 03:31:48')
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('miss you', '2015-11-05 03:31:48', '2015-11-05 03:31:48')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('We\'re in the golden age of Twitter, I can feel it !', '2015-11-05 03:31:49', '2015-11-05 03:31:49')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Everybody everybody wants to love, everybody everybody wants to be loved.', '2015-11-05 03:31:49', '2015-11-05 03:31:49')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@NCali_Raised shut up, should\'ve made you watch this movie when you came on Sunday', '2015-11-05 03:31:49', '2015-11-05 03:31:49')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Dahmer, Gacy &amp; Zodiac on AHS totally tripped me out but that was awesome', '2015-11-05 03:31:49', '2015-11-05 03:31:49')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@_platanaso did they have this today too?!', '2015-11-05 03:31:50', '2015-11-05 03:31:50')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Ava appreciation tweet https://t.co/qckXkzjvif', '2015-11-05 03:31:50', '2015-11-05 03:31:50')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Esperando el big truck #MRfamilytrip @ Tahiti Village Resort &amp; Spa https://t.co/gW09kEsNN3', '2015-11-05 03:31:50', '2015-11-05 03:31:50')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Soundcheck98_  https://t.co/IslfX3eSLJ', '2015-11-05 03:31:50', '2015-11-05 03:31:50')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('[ Sismos USGS ] M 2.4 - 10km ENE of Winnemucca, Nevada: DYFI? - ITime2015-11-05 02:59:07 UTC2015-11-04 18:59:0... https://t.co/IYO0ASpJHz', '2015-11-05 03:31:50', '2015-11-05 03:31:50')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('My legs huurrt', '2015-11-05 03:31:50', '2015-11-05 03:31:50')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('(박주신병역비리)  여기서 한 가지 걱정거리가 생긴다.그것이 진짜로 박주신 본인의 것이라면 염려가 없는데\n  만일 대리자의 것이라면 확인할 필요가 생긴다.왜냐하면 지금 대리자의 허리 상태가 석 달 전의 자생 것과 같아야 하기 때문이다. (최성령)', '2015-11-05 03:31:50', '2015-11-05 03:31:50')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('It\'s nice to think that I may soon be able to wear my winter clothing which I have so dearly missed', '2015-11-05 03:31:51', '2015-11-05 03:31:51')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@Gharo08 Miss you boo️', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('I just don\'t know what you want from me I hate this shit', '2015-11-05 03:31:51', '2015-11-05 03:31:51')[0m
+  [1m[35m (8.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('If you keep on Bolieving, the dream that you wish will come truuuu @WWE @TheBoDallas #Cinderella #BOLIEVE', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('How was I playing you? If I clearly told you I wasn\'t in to you.', '2015-11-05 03:31:51', '2015-11-05 03:31:51')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('Don\'t even bother going to @innoutburger in #venice .  Completely packed out into street https://t.co/lfHPqj04bR', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('@judylaine  I couldn\'t find Cat on Twitter and Alli has small numbers.', '2015-11-05 03:31:51', '2015-11-05 03:31:51')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('No, next', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('And that\'s why my friends I stick to android', '2015-11-05 03:31:51', '2015-11-05 03:31:51')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `tweets` (`text`, `created_at`, `updated_at`) VALUES ('USGS EQ: M 2.4 - 10km ENE of Winnemucca, Nevada: DYFI? - ITime2015-11-05 02:59:07 UTC2015-11-04 18... https://t.co/uoxf06bmty #EarthQuake', '2015-11-05 03:31:51', '2015-11-05 03:31:51')
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Completed   in 12149ms (ActiveRecord: 358.5ms)

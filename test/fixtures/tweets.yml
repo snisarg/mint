@@ -1,11 +1,27 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  hashtag: MyString
-  tweet_text: MyText
-  location: MyString
+  text: MyText
+  coordinates: MyText
+  country_code: MyText
+  location_full_name: MyText
+  FK_user_id: 1
+  in_reply_to_user_id: 1
+  in_reply_to_status_id: 1
+  retweet_count: 1
+  favorite_count: 1
+  timestamp: MyText
+  source: MyText
 
 two:
-  hashtag: MyString
-  tweet_text: MyText
-  location: MyString
+  text: MyText
+  coordinates: MyText
+  country_code: MyText
+  location_full_name: MyText
+  FK_user_id: 1
+  in_reply_to_user_id: 1
+  in_reply_to_status_id: 1
+  retweet_count: 1
+  favorite_count: 1
+  timestamp: MyText
+  source: MyText

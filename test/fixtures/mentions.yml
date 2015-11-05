@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  FK_tweet_id: 1
+  FK_user_id: 1
+
+two:
+  FK_tweet_id: 1
+  FK_user_id: 1

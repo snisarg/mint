@@ -11,14 +11,50 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151023171254) do
+ActiveRecord::Schema.define(version: 20151105015155) do
+
+  create_table "hashtag_lists", force: :cascade do |t|
+    t.integer  "FK_tweet_id",   limit: 4
+    t.integer  "FK_hashtag_id", limit: 4
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+  end
+
+  create_table "hashtags", force: :cascade do |t|
+    t.text     "text",       limit: 65535
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+  end
+
+  create_table "mentions", force: :cascade do |t|
+    t.integer  "FK_tweet_id", limit: 4
+    t.integer  "FK_user_id",  limit: 4
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+  end
 
   create_table "tweets", force: :cascade do |t|
-    t.string   "hashtag"
-    t.text     "tweet_text"
-    t.string   "location"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "text",                  limit: 65535
+    t.text     "coordinates",           limit: 65535
+    t.text     "country_code",          limit: 65535
+    t.text     "location_full_name",    limit: 65535
+    t.integer  "FK_user_id",            limit: 4
+    t.integer  "in_reply_to_user_id",   limit: 4
+    t.integer  "in_reply_to_status_id", limit: 4
+    t.integer  "retweet_count",         limit: 4
+    t.integer  "favorite_count",        limit: 4
+    t.text     "timestamp",             limit: 65535
+    t.text     "source",                limit: 65535
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.text     "name",        limit: 65535
+    t.text     "screen_name", limit: 65535
+    t.text     "location",    limit: 65535
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
 end
