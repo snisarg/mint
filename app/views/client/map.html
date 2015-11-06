@@ -11,7 +11,7 @@
             padding: 0;
         }
         #map {
-            height: 70%;
+            height: 90%;
         }
     </style>
 </head>
@@ -36,6 +36,7 @@
         });
 
         map.addListener('bounds_changed', function() {
+            // Fire event to fetch data here.
             matrix.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
         });
     }
