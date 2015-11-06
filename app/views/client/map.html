@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple markers</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 70%;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="matrix"></div>
+<script>
+    var matrix = document.getElementById('matrix');
+
+    function initMap() {
+        var myLatLng = {lat: 32.5396, lng: -117.283};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 6,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+        });
+
+        map.addListener('bounds_changed', function() {
+            matrix.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
+        });
+    }
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDofQhBpkvgBzIcCYvV1wq5S3MlksUQbn0&signed_in=true&callback=initMap"></script>
+</body>
+</html>

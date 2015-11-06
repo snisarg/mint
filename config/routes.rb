@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get 'twitter_api/fetch_tweets'
 
   get 'nearby/map'
+
+  get 'client/map'
   
   resources :tweets
 
