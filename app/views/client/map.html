@@ -11,13 +11,13 @@
             padding: 0;
         }
         #map {
-            height: 90%;
+            height: 70%;
         }
     </style>
 </head>
 <body>
 <div id="map"></div>
-<div id="matrix"></div>
+<table id="matrix"></table>
 <script>
     var matrix = document.getElementById('matrix');
 
@@ -37,12 +37,25 @@
 
         map.addListener('bounds_changed', function() {
             // Fire event to fetch data here.
-            matrix.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
+            matrix.innerHTML = "";
+            var lat1 = map.getBounds().getNorthEast().lat();
+            var lon1 = map.getBounds().getNorthEast().lng();
+            var lat2 = map.getBounds().getSouthWest().lat();
+            var lon2 = map.getBounds().getSouthWest().lng();
+            $.getJSON('../client?lat1=' + lat2 + '&lon1=' + lon1 + '&lat2=' + lat1 + '&lon2=' + lon2,
+                function(data) {
+                    //console.log(data);
+                    for( var key in data) {
+                        matrix.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
+                    }
+                });
+            //matrix.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
         });
     }
 
 </script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDofQhBpkvgBzIcCYvV1wq5S3MlksUQbn0&signed_in=true&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </body>
 </html>
