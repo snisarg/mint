@@ -80,7 +80,28 @@ class TwitterApiController < ApplicationController
           @new_mention.save
         }
 
+
+        tweet.hashtags.each { |hashtag|
+          @hashtag = Hashtag.find_by(text: hashtag.text)
+          @hashtagid = 0;
+          if @hashtag.nil?
+            @new_hashtag = Hashtag.new
+            @new_hashtag.text = hashtag.text
+            @new_hashtag.save
+            @hashtagid = @new_hashtag.id
+          else
+            @hashtagid = @hashtag.id
+          end
+
+          @new_hashtag_list_item = HashtagList.new
+          @new_hashtag_list_item.FK_tweet_id = @new_tweet.id
+          @new_hashtag_list_item.FK_hashtag_id = @hashtagid
+          @new_hashtag_list_item.save
+        }
+
         #TODO: store each new hashtag here in a similar way to the mentions and users
+
+
       rescue Exception => e
         puts "Error #{e}"
         next
