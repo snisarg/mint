@@ -11,36 +11,69 @@
             padding: 0;
         }
         #map {
-            height: 100%;
+            height: 65%;
         }
     </style>
 </head>
 <body>
 <div id="map"></div>
+<table id="matrix"></table>
 <script>
+    var matrix = document.getElementById('matrix');
+    var marker;
 
     function initMap() {
-        var myLatLng = {lat: 32.5396, lng: -117.283};
+        var myLatLng = {lat: 33.5396, lng: -116.283};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 4,
+            zoom: 8,
             center: myLatLng
         });
 
-        var marker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            title: 'Hello World!'
-        });
+        var markerClusterer;
+        var pinImage = new google.maps.MarkerImage("http://www.googlemapsmarkers.com/v1/009900/");
 
-        map.addListener('click', function() {
-            // Fire event to fetch data here.
-            
+        map.addListener('click', function(event) {
+            matrix.innerHTML = "";
+            var lat = event.latLng.lat();
+            var lon = event.latLng.lng();
+
+            if (marker == undefined) {
+                marker = new google.maps.Marker({
+                    position: event.latLng,
+                    icon: pinImage,
+                    map: map
+                });
+            }
+            else {
+                marker.setPosition(event.latLng);
+            }
+            $.getJSON('../nearby?lat=' + lat + '&lon=' + lon,
+                    function(data) {
+                        if (markerClusterer != null)
+                            markerClusterer.clearMarkers();
+
+                        if (data != null && data.length > 0) {
+                            console.log(Object.getOwnPropertyNames(data[0]));
+                            var tweetMarkers = [];
+                            for (var i in data) {
+                                matrix.innerHTML += '<tr><td>' + i + '</td><td>' + data[i].text + '</td></tr>' +
+                                        '<tr><td></td><td>' + data[i].screen_name + '</td></tr>' +
+                                        '<tr><td></td><td>' + data[i].location_full + '</td></tr>';
+
+                                var tweetLatLng = new google.maps.LatLng(data[i].latitude, data[i].longitude);
+                                var tweetMarker = new google.maps.Marker({'position': tweetLatLng});
+                                tweetMarkers.push(tweetMarker);
+                            }
+                            markerClusterer = new MarkerClusterer(map, tweetMarkers);
+                        }
+                    });
         });
     }
-
 </script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDofQhBpkvgBzIcCYvV1wq5S3MlksUQbn0&signed_in=true&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclusterer/src/markerclusterer.js"></script>
 </body>
 </html>
