@@ -2,18 +2,6 @@ class NearbyController < ApplicationController
 
   @@distance_range
 
-  class NearbyResult
-    def initialize(_text, _lat, _lon, _location_full, _source, _name, _screen_name)
-      @text = _text
-      @latitude = _lat
-      @longitude = _lon
-      @location_full = _location_full
-      @source = _source
-      @name = _name
-      @screen_name = _screen_name
-    end
-  end
-
   def index
     if params[:radius].blank?
       @@distance_range = 0.1
