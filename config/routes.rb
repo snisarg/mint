@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'nearby/map'
 
   get 'client/map'
+
+  get 'hashtag/popular', to: 'hashtag#popular'
   
   resources :tweets
 
