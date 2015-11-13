@@ -1,6 +1,6 @@
 class NearbyController < ApplicationController
 
-  @@distance_range = 0.2
+  @@distance_range
 
   class NearbyResult
     def initialize(_text, _lat, _lon, _location_full, _source, _name, _screen_name)
