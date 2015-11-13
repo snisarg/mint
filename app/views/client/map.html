@@ -30,8 +30,8 @@
         }
 
         #d3 {
-            height: 80%;
-            width: 45%;
+            height: 100%;
+            width: 50%;
             padding-top: 0;
             padding-left: 5em;
             position: relative;
@@ -204,6 +204,8 @@
                     bubble_data = {"name": "bubble_data", "children": []};
                     var client_bubble = {};
                     var bubble_size;
+                    view_height = $('#top-view').height();
+                    view_width = $('#top-view').width();
 
                     for( var key in data) {
                         client_table.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
@@ -218,6 +220,10 @@
 
                     // Redraw d3 bubble chart
                     svg.selectAll(".node").remove();
+
+                    svg.attr("width", view_width / 2).attr("height", view_height);
+
+                    $("svg").css({top: -(view_height / 4), right: - (view_width / 8), position:'absolute'});
 
                     var node = svg.selectAll(".node")
                             .data(bubble.nodes(classes(bubble_data))
