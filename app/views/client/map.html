@@ -159,7 +159,7 @@
 
     var svg = d3.select("#d3").append("svg")
             .attr("width", view_width / 2)
-            .attr("height", view_height )
+            .attr("height", view_height * 1.4)
             .attr("class", "bubble");
 
     var bubble_data = {};
@@ -221,7 +221,7 @@
                     // Redraw d3 bubble chart
                     svg.selectAll(".node").remove();
 
-                    svg.attr("width", view_width / 2).attr("height", view_height);
+                    svg.attr("width", view_width / 2).attr("height", view_height * 1.4);
 
                     $("svg").css({top: -(view_height / 4), right: - (view_width / 8), position:'absolute'});
 
