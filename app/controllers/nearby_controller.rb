@@ -16,6 +16,11 @@ class NearbyController < ApplicationController
 
   def index
     @nearbyResult = Array.new
+    if params[:radius].blank?
+      @@distance_range = 0.1
+    else
+      @@distance_range = params[:radius]
+    end
 
     # Get all tweets that are around the requested points.
     @nearbyTweets = Tweet.where(
