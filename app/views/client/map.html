@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
@@ -12,7 +15,7 @@
         }
 
         #map {
-            height: 65%;
+            height: 100%;
             width: 50%;
             float: left;
             position: relative;
@@ -22,18 +25,23 @@
             width: 20%;
             height: 40%;
             position: relative;
+            float: left;
             border: 0px solid black;
         }
 
         #d3 {
-            width: 50%;
-            height: 65%;
+            height: 80%;
+            width: 45%;
             padding-top: 0;
+            padding-left: 5em;
             position: relative;
             float: right;
             border: 0px solid black;
         }
 
+        #toggle {
+            padding-bottom: 1em;
+        }
 
         #custom-search-input {
             margin:0;
@@ -60,7 +68,6 @@
             background: none;
             /** belows styles are working good */
             padding: 2px 5px;
-            padding-bottom: 2em;
             margin-top: 2px;
             position: relative;
             left: -28px;
@@ -69,62 +76,90 @@
             -webkit-border-radius: 3px;
             -moz-border-radius: 3px;
             border-radius: 3px;
-            color:#D9230F;
+            color: #73d98b;
         }
 
         .search-query:focus + button {
             z-index: 3;
         }
 
-        tr {
-            padding: 0;
+        .view {
+            display: block;
+            height: 70%;
+            margin-right: 1em;
+            margin-left: 1em;
+            padding: 1em;
 
         }
 
-        td {
-
+        #top-view {
+            background: rgba(115, 255, 139, 0.4);
         }
+
     </style>
 </head>
-    <div class="container">
-        <div class="row">
-            <h2>Mint Search</h2>
-            <div id="custom-search-input">
-                <div class="input-group col-md-12">
-                    <input type="text" class="  search-query form-control" placeholder="Search" />
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-danger" type="button">
-                                                <span class=" glyphicon glyphicon-search"></span>
-                                            </button>
-                                        </span>
+    <div id="search_header">
+        <div class="container">
+            <div class="row">
+                <h2>Mint Search</h2>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Search" />
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-danger" type="button">
+                                                    <span class=" glyphicon glyphicon-search"></span>
+                                                </button>
+                                            </span>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <br>
+        <div class="center-block" style="width: fit-content;">
+            <div id="toggle" class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Clients (preselected)
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Nearby
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Hashtags
+                </label>
             </div>
         </div>
     </div>
 
-    <div id="map"></div>
-    <div id="d3"></div>
-    <table id="client_table" class="align-left"></table>
-
-<script src="//d3js.org/d3.v3.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <span class="view" id="top-view">
+        <div id="map"></div>
+        <div id="d3"></div>
+        <br>
+    </span>
+    <span class="view">
+        <table id="client_table"></table>
+    </span>
 <script>
     var client_table = document.getElementById('client_table');
 
     // d3 bubble chart initialization
-    var diameter = window.innerWidth / 2,
+
+    var view_height = $('#top-view').height();
+    var view_width = $('#top-view').width();
+
+    console.log(view_height, view_width);
+
+    var diameter = view_width,
             format = d3.format(",d"),
             color = d3.scale.category20c();
 
     var bubble = d3.layout.pack()
             .sort(null)
-            .size([diameter, diameter / 1.5])
+            .size([view_height, view_width / 2 ])
             .padding(0.5);
 
     var svg = d3.select("#d3").append("svg")
-            .attr("width", diameter)
-            .attr("height", diameter)
+            .attr("width", view_width / 2)
+            .attr("height", view_height )
             .attr("class", "bubble");
 
     var bubble_data = {};
