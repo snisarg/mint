@@ -19,7 +19,7 @@ class NearbyController < ApplicationController
     if params[:radius].blank?
       @@distance_range = 0.1
     else
-      @@distance_range = params[:radius]
+      @@distance_range = params[:radius].to_f
     end
 
     # Get all tweets that are around the requested points.
