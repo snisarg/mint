@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get 'client/map'
 
   get 'hashtag/popular', to: 'hashtag#popular'
+
+  get 'hashtag/autocomplete', to: 'hashtag#autocomplete'
   
   resources :tweets
 
