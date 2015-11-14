@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
@@ -10,16 +13,169 @@
             margin: 0;
             padding: 0;
         }
+
         #map {
-            height: 70%;
+            height: 100%;
+            width: 50%;
+            float: left;
+            position: relative;
         }
+
+        #client_table {
+            width: 20%;
+            height: 40%;
+            position: relative;
+            float: left;
+            border: 0px solid black;
+        }
+
+        #d3 {
+            height: 100%;
+            width: 50%;
+            padding-top: 0;
+            padding-left: 5em;
+            position: relative;
+            float: right;
+            border: 0px solid black;
+        }
+
+        #toggle {
+            padding-bottom: 1em;
+        }
+
+        #custom-search-input {
+            margin:0;
+            margin-top: 10px;
+            padding: 0;
+            border: 0px solid black;
+        }
+
+        #custom-search-input .search-query {
+            padding-right: 3px;
+            padding-right: 4px \9;
+            padding-left: 3px;
+            padding-left: 4px \9;
+            /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+            margin-bottom: 0;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        #custom-search-input button {
+            border: 0;
+            background: none;
+            /** belows styles are working good */
+            padding: 2px 5px;
+            margin-top: 2px;
+            position: relative;
+            left: -28px;
+            /* IE7-8 doesn't have border-radius, so don't indent the padding */
+            margin-bottom: 0;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            color: #73d98b;
+        }
+
+        .search-query:focus + button {
+            z-index: 3;
+        }
+
+        .view {
+            display: block;
+            height: 70%;
+            margin-right: 1em;
+            margin-left: 1em;
+            padding: 1em;
+
+        }
+
+        #top-view {
+            background: rgba(115, 255, 139, 0.4);
+        }
+
     </style>
 </head>
-<body>
-<div id="map"></div>
-<table id="matrix"></table>
+    <div id="search_header">
+        <div class="container">
+            <div class="row">
+                <h2>Mint Search</h2>
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Search" />
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-danger" type="button">
+                                                    <span class=" glyphicon glyphicon-search"></span>
+                                                </button>
+                                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="center-block" style="width: fit-content;">
+            <div id="toggle" class="btn-group" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Clients (preselected)
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Nearby
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Hashtags
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <span class="view" id="top-view">
+        <div id="map"></div>
+        <div id="d3"></div>
+        <br>
+    </span>
+    <span class="view">
+        <table id="client_table"></table>
+    </span>
 <script>
-    var matrix = document.getElementById('matrix');
+    var client_table = document.getElementById('client_table');
+
+    // d3 bubble chart initialization
+
+    var view_height = $('#top-view').height();
+    var view_width = $('#top-view').width();
+
+    console.log(view_height, view_width);
+
+    var diameter = view_width,
+            format = d3.format(",d"),
+            color = d3.scale.category20c();
+
+    var bubble = d3.layout.pack()
+            .sort(null)
+            .size([view_height, view_width / 2 ])
+            .padding(0.5);
+
+    var svg = d3.select("#d3").append("svg")
+            .attr("width", view_width / 2)
+            .attr("height", view_height * 1.4)
+            .attr("class", "bubble");
+
+    var bubble_data = {};
+    /* format for JSON object passed to bubble chart
+    var test_data = {"name": "flare", "children": [
+        {"name": "test", "children": [
+            {"name": "test", "size": 19000}
+        ]
+        },
+        {"name": "example", "children": [
+            {"name": "example", "size": 19000}
+        ]
+        }
+    ]};
+    */
+    // End d3 initialization
 
     function initMap() {
         var myLatLng = {lat: 32.5396, lng: -117.283};
@@ -37,21 +193,83 @@
 
         map.addListener('bounds_changed', function() {
             // Fire event to fetch data here.
-            matrix.innerHTML = "";
+            client_table.innerHTML = "";
             var lat1 = map.getBounds().getNorthEast().lat();
             var lon1 = map.getBounds().getNorthEast().lng();
             var lat2 = map.getBounds().getSouthWest().lat();
             var lon2 = map.getBounds().getSouthWest().lng();
             $.getJSON('../client?lat1=' + lat2 + '&lon1=' + lon1 + '&lat2=' + lat1 + '&lon2=' + lon2,
                 function(data) {
-                    //console.log(data);
+
+                    bubble_data = {"name": "bubble_data", "children": []};
+                    var client_bubble = {};
+                    var bubble_size;
+                    view_height = $('#top-view').height();
+                    view_width = $('#top-view').width();
+
                     for( var key in data) {
-                        matrix.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
+                        client_table.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
+                        bubble_size = data[key] * 1000;
+
+                        client_bubble = {"name": $(key).text(), "children": [
+                            {"name": $(key).text(), "size": bubble_size}
+                        ]};
+
+                        bubble_data.children.push(client_bubble);
                     }
+
+                    // Redraw d3 bubble chart
+                    svg.selectAll(".node").remove();
+
+                    svg.attr("width", view_width / 2).attr("height", view_height * 1.4);
+
+                    $("svg").css({top: -(view_height / 4), right: - (view_width / 8), position:'absolute'});
+
+                    var node = svg.selectAll(".node")
+                            .data(bubble.nodes(classes(bubble_data))
+                                    .filter(function(d) { return !d.children; }))
+                            .enter().append("g")
+                            .attr("class", "node")
+                            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+                    node.transition()
+                            .duration(2000)
+                            .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+                    node.append("title")
+                            .text(function(d) { return d.className + ": " + format(d.value); });
+
+                    node.append("circle")
+                            .attr("r", function(d) { return d.r; })
+                            .style("fill", function(d) { return color(d.packageName); });
+
+                    node.append("text")
+                            .attr("dy", ".3em")
+                            .style("text-anchor", "middle")
+                            .text(function(d) { return d.className.substring(0, d.r / 3); });
+
                 });
-            //matrix.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
+            //client_table.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
         });
+
+
     }
+
+    // Returns a flattened hierarchy containing all leaf nodes under the root.
+    function classes(root) {
+        var classes = [];
+
+        function recurse(name, node) {
+            if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+            else classes.push({packageName: name, className: node.name, value: node.size});
+        }
+
+        recurse(null, root);
+        return {children: classes};
+    }
+
+    d3.select(self.frameElement).style("height", diameter + "px");
+
 
 </script>
 <script async defer
