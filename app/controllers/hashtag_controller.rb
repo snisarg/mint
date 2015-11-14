@@ -18,7 +18,7 @@ class HashtagController < ApplicationController
   end
 
   def autocomplete
-    render json: Hashtag.where("text LIKE ?", '%'+params[:term]+'%')
+    render json: Hashtag.where('text LIKE ?', '%'+params[:term]+'%')
   end
 
 end
