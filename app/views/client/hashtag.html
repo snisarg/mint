@@ -98,39 +98,39 @@
 
     </style>
 </head>
-    <div id="search_header">
-        <div class="container">
-            <div class="row">
-                <h2>Mint Search</h2>
-                <div id="custom-search-input">
-                    <div class="input-group col-md-12">
-                        <input type="text" class="  search-query form-control" placeholder="Search" />
+<div id="search_header">
+    <div class="container">
+        <div class="row">
+            <h2>Mint Search</h2>
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="  search-query form-control" placeholder="Search" />
                                             <span class="input-group-btn">
                                                 <button class="btn btn-danger" type="button">
                                                     <span class=" glyphicon glyphicon-search"></span>
                                                 </button>
                                             </span>
-                    </div>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="center-block" style="width: fit-content;">
-            <div id="toggle" class="btn-group" data-toggle="buttons">
-                <label class="btn btn-primary active" onclick="location.href='../client/map';">
-                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Clients
-                </label>
+    </div>
+    <br>
+    <div class="center-block" style="width: fit-content;">
+        <div id="toggle" class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary" onclick="location.href='../client/map';">
+                <input type="radio" name="options" id="option1" autocomplete="off"> Clients
+            </label>
 
-                <label class="btn btn-primary" onclick="location.href='../client/nearby';">
-                    <input type="radio" name="options" id="option2" autocomplete="off"> Nearby
-                </label>
+            <label class="btn btn-primary" onclick="location.href='../client/nearby';">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Nearby
+            </label>
 
-                <label class="btn btn-primary" onclick="location.href='../client/hashtag';">
-                    <input type="radio" name="options" id="option3" autocomplete="off"> Hashtags
-                </label>
-            </div>
+            <label class="btn btn-primary active" onclick="location.href='../client/hashtag';">
+                <input type="radio" name="options" id="option3" autocomplete="off" checked> Hashtags
+            </label>
         </div>
     </div>
+</div>
 
     <span class="view" id="top-view">
         <div id="map"></div>
@@ -167,17 +167,17 @@
     var bubble_data = {};
 
     /* format for JSON object passed to bubble chart
-    var test_data = {"name": "flare", "children": [
-        {"name": "test", "children": [
-            {"name": "test", "size": 19000}
-        ]
-        },
-        {"name": "example", "children": [
-            {"name": "example", "size": 19000}
-        ]
-        }
-    ]};
-    */
+     var test_data = {"name": "flare", "children": [
+     {"name": "test", "children": [
+     {"name": "test", "size": 19000}
+     ]
+     },
+     {"name": "example", "children": [
+     {"name": "example", "size": 19000}
+     ]
+     }
+     ]};
+     */
     // End d3 initialization
 
     function initMap() {
@@ -202,56 +202,56 @@
             var lat2 = map.getBounds().getSouthWest().lat();
             var lon2 = map.getBounds().getSouthWest().lng();
             $.getJSON('../client?lat1=' + lat2 + '&lon1=' + lon1 + '&lat2=' + lat1 + '&lon2=' + lon2,
-                function(data) {
+                    function(data) {
 
-                    bubble_data = {"name": "bubble_data", "children": []};
-                    var client_bubble = {};
-                    var bubble_size;
-                    view_height = $('#top-view').height();
-                    view_width = $('#top-view').width();
+                        bubble_data = {"name": "bubble_data", "children": []};
+                        var client_bubble = {};
+                        var bubble_size;
+                        view_height = $('#top-view').height();
+                        view_width = $('#top-view').width();
 
-                    for( var key in data) {
-                        client_table.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
-                        bubble_size = data[key] * 1000;
+                        for( var key in data) {
+                            client_table.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
+                            bubble_size = data[key] * 1000;
 
-                        client_bubble = {"name": $(key).text(), "children": [
-                            {"name": $(key).text(), "size": bubble_size}
-                        ]};
+                            client_bubble = {"name": $(key).text(), "children": [
+                                {"name": $(key).text(), "size": bubble_size}
+                            ]};
 
-                        bubble_data.children.push(client_bubble);
-                    }
+                            bubble_data.children.push(client_bubble);
+                        }
 
-                    // Redraw d3 bubble chart
-                    svg.selectAll(".node").remove();
+                        // Redraw d3 bubble chart
+                        svg.selectAll(".node").remove();
 
-                    svg.attr("width", view_width / 2).attr("height", view_height * 1.4);
+                        svg.attr("width", view_width / 2).attr("height", view_height * 1.4);
 
-                    $("svg").css({top: -(view_height / 4), right: - (view_width / 8), position:'absolute'});
+                        $("svg").css({top: -(view_height / 4), right: - (view_width / 8), position:'absolute'});
 
-                    var node = svg.selectAll(".node")
-                            .data(bubble.nodes(classes(bubble_data))
-                                    .filter(function(d) { return !d.children; }))
-                            .enter().append("g")
-                            .attr("class", "node")
-                            .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+                        var node = svg.selectAll(".node")
+                                .data(bubble.nodes(classes(bubble_data))
+                                        .filter(function(d) { return !d.children; }))
+                                .enter().append("g")
+                                .attr("class", "node")
+                                .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-                    node.transition()
-                            .duration(2000)
-                            .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
+                        node.transition()
+                                .duration(2000)
+                                .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-                    node.append("title")
-                            .text(function(d) { return d.className + ": " + format(d.value); });
+                        node.append("title")
+                                .text(function(d) { return d.className + ": " + format(d.value); });
 
-                    node.append("circle")
-                            .attr("r", function(d) { return d.r; })
-                            .style("fill", function(d) { return color(d.packageName); });
+                        node.append("circle")
+                                .attr("r", function(d) { return d.r; })
+                                .style("fill", function(d) { return color(d.packageName); });
 
-                    node.append("text")
-                            .attr("dy", ".3em")
-                            .style("text-anchor", "middle")
-                            .text(function(d) { return d.className.substring(0, d.r / 3); });
+                        node.append("text")
+                                .attr("dy", ".3em")
+                                .style("text-anchor", "middle")
+                                .text(function(d) { return d.className.substring(0, d.r / 3); });
 
-                });
+                    });
             //client_table.innerHTML = map.getBounds().getNorthEast() + " to " + map.getBounds().getSouthWest();
         });
 

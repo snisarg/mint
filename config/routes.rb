@@ -10,6 +10,10 @@ Rails.application.routes.draw do
 
   get 'client/map'
 
+  get 'client/nearby'
+
+  get 'client/hashtag'
+
   get 'hashtag/popular', to: 'hashtag#popular'
 
   get 'hashtag/autocomplete', to: 'hashtag#autocomplete'
