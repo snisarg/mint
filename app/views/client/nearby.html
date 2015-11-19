@@ -258,10 +258,18 @@
                             console.log(Object.getOwnPropertyNames(data[0]));
                             var tweetMarkers = [];
                             var users = {};
+                            var max_display = 20;
+                            var render_count = 0;
                             for (var i in data) {
-                                client_table.innerHTML += '<blockquote><p>' + data[i].text + '</p>' +
-                                        '- ' + data[i].screen_name + ' <br>' + data[i].location_full_name + ' '
-                                + data[i].source + '</blockquote>';
+
+                                if(!(render_count > max_display)) {
+                                    client_table.innerHTML += '<blockquote><p>' + data[i].text + '</p>' +
+                                            '- ' + data[i].screen_name + ' <br>' + data[i].location_full_name + ' '
+                                            + data[i].source + '</blockquote>';
+
+                                    render_count++;
+                                }
+
                                 var name = data[i].screen_name;
 
                                 if (!users[name]) {
