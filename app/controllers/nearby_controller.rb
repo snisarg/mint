@@ -15,12 +15,24 @@ class NearbyController < ApplicationController
     minLon = (params[:lon].to_f - @distance_range).floor
     maxLon = (params[:lon].to_f + @distance_range).ceil
 
+    curLatDiff = maxLat - minLat
+    curLonDiff = maxLon - minLon
 
     @maxCacheLat = Rails.cache.fetch('maxCacheLat') do
-      @maxCacheLat = 3
+      @maxCacheLat = curLatDiff
     end
+
+    puts(@maxCacheLat)
+    if (@maxCacheLat < curLatDiff)
+      Rails.cache.write('maxCacheLat', curLatDiff)
+    end
+
     @maxCacheLon = Rails.cache.fetch('maxCacheLon') do
-      @maxCacheLon = 3
+      @maxCacheLon = curLonDiff
+    end
+    puts(@maxCacheLon)
+    if (@maxCacheLon < curLonDiff)
+      Rails.cache.write('maxCacheLon', curLonDiff)
     end
 
     @subsetOfCachedBlock = false
@@ -54,6 +66,7 @@ class NearbyController < ApplicationController
     if (@subsetOfCachedBlock == true)
       puts("Cache hit")
       @nearbyTweets = Rails.cache.read(@cacheKey)
+      puts("Retrieved from cache with key: " + @cacheKey)
     else
       puts("Cache miss")
       key = 'nearbyCache' << minLat.to_s << maxLat.to_s << minLon.to_s << maxLon.to_s
@@ -71,12 +84,11 @@ class NearbyController < ApplicationController
     # end
 
     @nearbyTweetsFiltered = @nearbyTweets.select { |tweet|
-      tweet.latitude <= lat + @distance_range
-      tweet.latitude >= lat - @distance_range
-      tweet.longitude <= lon + @distance_range
+      tweet.latitude <= lat + @distance_range &&
+      tweet.latitude >= lat - @distance_range &&
+      tweet.longitude <= lon + @distance_range &&
       tweet.longitude >= lon - @distance_range
     }
-    puts("Retrieved from cache with key: " + @cacheKey)
     puts(@nearbyTweetsFiltered.size())
     render json: @nearbyTweetsFiltered
   end
