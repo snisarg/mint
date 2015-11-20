@@ -9,23 +9,35 @@
 
   <!-- Server side setup -->
   <servers>
-    <server host="ec2-52-10-217-203.us-west-2.compute.amazonaws.com" port="80" type="tcp"></server>
+    <server host="" port="80" type="tcp"></server>
   </servers>
 
 
   <load>
-<arrivalphase phase="1" duration="30" unit="second">
- <users arrivalrate="1" unit="second"></users>
- </arrivalphase>
- <arrivalphase phase="2" duration="30" unit="second">
- <users arrivalrate="2" unit="second"></users>
- </arrivalphase>
- <arrivalphase phase="3" duration="30" unit="second">
- <users arrivalrate="4" unit="second"></users>
- </arrivalphase>
- <arrivalphase phase="4" duration="30" unit="second">
- <users arrivalrate="8" unit="second"></users>
- </arrivalphase>
+    <arrivalphase phase="1" duration="30" unit="second">
+      <users arrivalrate="1" unit="second"></users>
+    </arrivalphase>
+    <arrivalphase phase="2" duration="30" unit="second">
+      <users arrivalrate="2" unit="second"></users>
+    </arrivalphase>
+    <arrivalphase phase="3" duration="30" unit="second">
+      <users arrivalrate="4" unit="second"></users>
+    </arrivalphase>
+   <arrivalphase phase="4" duration="30" unit="second">
+     <users arrivalrate="8" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="5" duration="30" unit="second">
+     <users arrivalrate="16" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="6" duration="30" unit="second">
+     <users arrivalrate="32" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="7" duration="30" unit="second">
+     <users arrivalrate="64" unit="second"></users>
+   </arrivalphase>
+   <arrivalphase phase="8" duration="30" unit="second">
+     <users arrivalrate="128" unit="second"></users>
+   </arrivalphase>
   </load>
 
   <options>
@@ -39,14 +51,44 @@
 
   <sessions>
     <session name="http-example" probability="100" type="ts_http">
+	<!--Search for nearby tweets in Los Angeles-->
       <request>
-        <http url='/nearby?lat=34.0500&amp;lon=-118.2500&amp;radius=0.01' version='1.1' method='GET'></http>
+        <http url='/nearby?lat=34.0500&amp;lon=-118.2500&amp;radius=0.1' version='1.1' method='GET'></http>
       </request>
 
-	<thinktime value="2" random="true"></thinktime>
+	<thinktime value="5" random="true"></thinktime>
 
+	<!--Search for types of clients used to access Twitter in the Bay Area-->
 	<request>
-		<http url='/client?lat1=30.5&amp;lat2=35.5&amp;lon1=-115.5&amp;lon2=-120.5' version='1.1' method='GET'></http>
+		<http url='/client?lat1=36.8931&amp;lat2=38.8643&amp;lon2=-123.5337&amp;lon1=-121.2082' version='1.1' method='GET'></http>
+	</request>
+
+	<thinktime value="5" random="true"></thinktime>
+
+	<!--Search for tweets from users with twitter handles harrisj and irmastyle-->
+	<request>
+		<http url='/user?handle=harrisj,irmastyle' version='1.1' method='GET'></http>
+	</request>
+
+	<thinktime value="5" random="true"></thinktime>
+
+	<!--Search for tweets with hashtag #money or #LasVegas-->
+	<request>
+		<http url='/hashtag?tags=money,LasVegas' version='1.1' method='GET'></http>
+	</request>
+
+	<thinktime value="5" random="true"></thinktime>
+
+	<!--Search for popular hashtags in the area of New York, New York-->
+	<request>
+		<http url='/hashtag/popular?lat1=40.4774&amp;lat2=40.9176&amp;lon2=-74.2589&amp;lon1=-73.7004' version='1.1' method='GET'></http>
+	</request>
+
+	<thinktime value="5" random="true"></thinktime>
+
+	<!--Search for all hashtags starting with "mi"-->
+	<request>
+		<http url='/hashtag/autocomplete?term=mi' version='1.1' method='GET'></http>
 	</request>
     </session>
   </sessions>
