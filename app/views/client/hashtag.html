@@ -138,7 +138,9 @@
         <br>
     </span>
     <span class="view">
-        <table id="client_table"></table>
+        <table id="client_table">
+            <h2>Hashtag Toplist</h2>
+        </table>
     </span>
 <script>
     var client_table = document.getElementById('client_table');
@@ -201,7 +203,7 @@
             var lon1 = map.getBounds().getNorthEast().lng();
             var lat2 = map.getBounds().getSouthWest().lat();
             var lon2 = map.getBounds().getSouthWest().lng();
-            $.getJSON('../client?lat1=' + lat2 + '&lon1=' + lon1 + '&lat2=' + lat1 + '&lon2=' + lon2,
+            $.getJSON('../hashtag/popular?lat1=' + lat2 + '&lon1=' + lon1 + '&lat2=' + lat1 + '&lon2=' + lon2,
                     function(data) {
 
                         bubble_data = {"name": "bubble_data", "children": []};
@@ -210,16 +212,33 @@
                         view_height = $('#top-view').height();
                         view_width = $('#top-view').width();
 
+                        var hashtags = [];
                         for( var key in data) {
-                            client_table.innerHTML += '<tr><td>' + key + '</td><td>' + data[key] + '</td></tr>';
+                            hashtags.push({
+                                "name": key,
+                                "count": data[key]
+                            });
+
+                            client_table.innerHTML += '<tr><td>' + '#' + key + '</td><td>' + data[key] + '</td></tr>';
                             bubble_size = data[key] * 1000;
 
-                            client_bubble = {"name": $(key).text(), "children": [
-                                {"name": $(key).text(), "size": bubble_size}
+                            client_bubble = {"name": key, "children": [
+                                {"name": key, "size": bubble_size}
                             ]};
 
                             bubble_data.children.push(client_bubble);
                         }
+/*
+                        // Sort and draw hashtags
+                        console.log(hashtags);
+                        hashtags.sort(function(a, b) {return b.count - a.count});
+                        console.log(hashtags);
+
+                        for( var key in hashtags) {
+                            client_table.innerHTML += '<tr><td>' + '#' + hashtags[key].name + '</td><td>'
+                                    + hashtags[key].count + '</td></tr>';
+                        }
+*/
 
                         // Redraw d3 bubble chart
                         svg.selectAll(".node").remove();
