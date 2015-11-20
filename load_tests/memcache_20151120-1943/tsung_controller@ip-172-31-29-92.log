@@ -1,0 +1,408 @@
+
+=INFO REPORT==== 20-Nov-2015::19:43:00 ===
+    ts_config_server:(5:<0.39.0>) Config server started, logdir is "/home/ec2-user/.tsung/log/20151120-1943"
+ 
+=INFO REPORT==== 20-Nov-2015::19:43:00 ===
+              ts_mon:(5:<0.38.0>) starting monitor, global 
+
+=INFO REPORT==== 20-Nov-2015::19:43:00 ===
+           ts_config:(5:<0.39.0>) Reading config file: simple.xml
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+      ts_config_http:(4:<0.39.0>) Get user agent: 100 "Mozilla/5.0 (Windows; U; Windows NT 5.2; fr-FR; rv:1.7.8) Gecko/20050511 Firefox/1.0.4" 
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+           ts_config:(5:<0.39.0>) Session name for id 1 is "http-example"
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(4:<0.39.0>) SYSINFO:Tsung version: 1.5.0
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(4:<0.39.0>) SYSINFO:Erlang version: Erlang R16B03-1 (erts-5.10.4) [source] [64-bit] [async-threads:16] [hipe] [kernel-poll:true]
+
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(4:<0.39.0>) SYSINFO:System architecture x86_64-unknown-linux-gnu
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(4:<0.39.0>) SYSINFO:Current path: /home/ec2-user/opt/tsung-1.5.0/lib/erlang/lib/tsung-1.5.0/ebin/tsung.beam
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+           ts_os_mon:(5:<0.36.0>) os_mon disabled
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+              ts_mon:(5:<0.40.0>) Activate clients with text backend
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+              ts_mon:(5:<0.40.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+  ts_launcher_static:(5:<0.73.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+         ts_launcher:(5:<0.74.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) All remote beams started, syncing 
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 1 for client "localhost" (last ? true): will start 30 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 2 for client "localhost" (last ? true): will start 60 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 3 for client "localhost" (last ? true): will start 120 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 4 for client "localhost" (last ? true): will start 240 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 5 for client "localhost" (last ? true): will start 480 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 6 for client "localhost" (last ? true): will start 960 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 7 for client "localhost" (last ? true): will start 1920 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+    ts_config_server:(5:<0.39.0>) New arrival phase 8 for client "localhost" (last ? true): will start 3840 users
+
+=INFO REPORT==== 20-Nov-2015::19:43:01 ===
+         ts_launcher:(5:<0.74.0>) Expected duration of first phase: 30.0 sec (30 users) 
+
+=INFO REPORT==== 20-Nov-2015::19:43:03 ===
+         ts_launcher:(5:<0.74.0>) Activate launcher (30 users) in 9785 msec 
+
+=INFO REPORT==== 20-Nov-2015::19:43:40 ===
+         ts_launcher:(4:<0.74.0>) Need to wait 2.136 sec before changing phase, going to sleep
+
+=INFO REPORT==== 20-Nov-2015::19:43:42 ===
+         ts_launcher:(5:<0.74.0>) Waking up
+
+=INFO REPORT==== 20-Nov-2015::19:43:42 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (60 users, 0.002); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:44:13 ===
+         ts_launcher:(5:<0.74.0>) Phase duration exceeded, but not all users were launched (6 users, 10.0% of phase)
+
+=INFO REPORT==== 20-Nov-2015::19:44:13 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (120 users, 0.004); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:44:39 ===
+         ts_launcher:(4:<0.74.0>) Need to wait 3.662 sec before changing phase, going to sleep
+
+=INFO REPORT==== 20-Nov-2015::19:44:43 ===
+         ts_launcher:(5:<0.74.0>) Waking up
+
+=INFO REPORT==== 20-Nov-2015::19:44:43 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (240 users, 0.008); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:45:12 ===
+         ts_launcher:(4:<0.74.0>) Need to wait 0.693 sec before changing phase, going to sleep
+
+=INFO REPORT==== 20-Nov-2015::19:45:13 ===
+         ts_launcher:(5:<0.74.0>) Waking up
+
+=INFO REPORT==== 20-Nov-2015::19:45:13 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (480 users, 0.016); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:45:42 ===
+         ts_launcher:(4:<0.74.0>) Need to wait 1.166 sec before changing phase, going to sleep
+
+=INFO REPORT==== 20-Nov-2015::19:45:43 ===
+         ts_launcher:(5:<0.74.0>) Waking up
+
+=INFO REPORT==== 20-Nov-2015::19:45:43 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (960 users, 0.032); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:46:12 ===
+         ts_launcher:(4:<0.74.0>) Need to wait 0.834 sec before changing phase, going to sleep
+
+=INFO REPORT==== 20-Nov-2015::19:46:13 ===
+         ts_launcher:(5:<0.74.0>) Waking up
+
+=INFO REPORT==== 20-Nov-2015::19:46:13 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (1920 users, 0.064); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:46:43 ===
+         ts_launcher:(5:<0.74.0>) Phase duration exceeded, but not all users were launched (49 users, 2.6% of phase)
+
+=INFO REPORT==== 20-Nov-2015::19:46:43 ===
+         ts_launcher:(5:<0.74.0>) Start a new arrival phase (3840 users, 0.128); expected duration=30.0 sec
+
+=INFO REPORT==== 20-Nov-2015::19:47:13 ===
+         ts_launcher:(5:<0.74.0>) Phase duration exceeded, but not all users were launched (25 users, 0.7% of phase)
+
+=INFO REPORT==== 20-Nov-2015::19:47:13 ===
+         ts_launcher:(5:<0.74.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 20-Nov-2015::19:47:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 4843 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:48:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 2886 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:49:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 1376 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:50:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 130 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:51:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:52:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:53:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:54:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:55:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:56:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:57:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:58:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::19:59:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:00:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:01:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:02:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:03:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:04:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:05:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:06:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:07:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:08:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:09:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:10:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:11:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:12:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:13:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:14:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:15:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:16:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:17:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:18:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:19:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:20:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:21:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:22:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:23:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:24:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:25:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:26:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:27:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:28:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:29:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:30:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:31:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:32:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:33:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:34:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:35:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:36:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:37:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:38:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:39:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:40:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:41:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:42:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:43:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:44:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:45:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:46:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:47:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:48:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:49:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:50:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:51:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:52:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:53:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:54:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:55:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:56:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:57:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:58:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::20:59:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:00:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:01:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:02:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:03:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:04:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:05:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:06:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:07:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:08:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:09:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:10:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:11:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:12:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:13:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:14:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
+
+=INFO REPORT==== 20-Nov-2015::21:15:13 ===
+     ts_launcher_mgr:(5:<0.69.0>) Still 106 active client(s)
