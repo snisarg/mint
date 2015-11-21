@@ -2,8 +2,6 @@ Rails.application.routes.draw do
 
   get 'map/index'
 
-  get 'admin/data_push'
-
   get 'twitter_api/fetch_tweets'
 
   get 'nearby/map'
