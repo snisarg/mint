@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151105191932) do
+ActiveRecord::Schema.define(version: 20151129235517) do
 
   create_table "hashtag_lists", force: :cascade do |t|
     t.integer  "FK_tweet_id",   limit: 4
@@ -19,6 +19,9 @@ ActiveRecord::Schema.define(version: 20151105191932) do
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
   end
+
+  add_index "hashtag_lists", ["FK_hashtag_id"], name: "fk_rails_2d5650397e", using: :btree
+  add_index "hashtag_lists", ["FK_tweet_id"], name: "fk_rails_00643b388d", using: :btree
 
   create_table "hashtags", force: :cascade do |t|
     t.text     "text",       limit: 65535
@@ -32,6 +35,9 @@ ActiveRecord::Schema.define(version: 20151105191932) do
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
   end
+
+  add_index "mentions", ["FK_tweet_id"], name: "fk_rails_0c17d58473", using: :btree
+  add_index "mentions", ["FK_user_id"], name: "fk_rails_a860b4e3eb", using: :btree
 
   create_table "tweets", force: :cascade do |t|
     t.text     "text",                  limit: 65535
@@ -50,13 +56,19 @@ ActiveRecord::Schema.define(version: 20151105191932) do
     t.datetime "updated_at",                          null: false
   end
 
-  create_table "users", force: :cascade do |t|
+  add_index "tweets", ["FK_user_id"], name: "fk_rails_8f05ad24b0", using: :btree
+
+  create_table "users", primary_key: "twitter_id", force: :cascade do |t|
     t.text     "name",        limit: 65535
     t.text     "screen_name", limit: 65535
     t.text     "location",    limit: 65535
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
-    t.integer  "twitter_id",  limit: 8
   end
 
+  add_foreign_key "hashtag_lists", "hashtags", column: "FK_hashtag_id"
+  add_foreign_key "hashtag_lists", "tweets", column: "FK_tweet_id"
+  add_foreign_key "mentions", "tweets", column: "FK_tweet_id"
+  add_foreign_key "mentions", "users", column: "FK_user_id", primary_key: "twitter_id"
+  add_foreign_key "tweets", "users", column: "FK_user_id", primary_key: "twitter_id"
 end
