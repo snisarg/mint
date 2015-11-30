@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151129235517) do
+ActiveRecord::Schema.define(version: 20151130010736) do
 
   create_table "hashtag_lists", force: :cascade do |t|
     t.integer  "FK_tweet_id",   limit: 4
@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 20151129235517) do
   end
 
   add_index "tweets", ["FK_user_id"], name: "fk_rails_8f05ad24b0", using: :btree
+  add_index "tweets", ["latitude", "longitude"], name: "index_tweets_on_latitude_and_longitude", using: :btree
 
   create_table "users", primary_key: "twitter_id", force: :cascade do |t|
     t.text     "name",        limit: 65535
