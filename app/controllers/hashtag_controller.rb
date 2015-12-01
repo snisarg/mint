@@ -12,7 +12,7 @@ class HashtagController < ApplicationController
         latitude: (params[:lat1].to_f .. params[:lat2].to_f),
         longitude: (params[:lon2].to_f .. params[:lon1].to_f))
     .joins('JOIN hashtag_lists ON tweets.id=hashtag_lists.FK_tweet_id JOIN hashtags ON hashtag_lists.FK_hashtag_id=hashtags.id')
-    .group('hashtags.text').count
+    .group('hashtags.text').count.using(:slave1)
 
     render json: @sourceCount
   end

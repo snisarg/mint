@@ -1,0 +1,7 @@
+octopus:
+  shards:
+    adapter: mysql2
+    database: rails_app
+    username: root
+    password: password
+    host: mint-multipletry.cz2moefkl3s1.us-west-2.rds.amazonaws.com
