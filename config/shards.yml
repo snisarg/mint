@@ -18,7 +18,7 @@ octopus:
   production:
     slave1:
       adapter: mysql2
-      host: mint-multipletry.cz2moefkl3s1.us-west-2.rds.amazonaws.com
+      host: mint-rdsonly.cz2moefkl3s1.us-west-2.rds.amazonaws.com
       database: rails_app
       username: root
       password: password
