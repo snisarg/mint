@@ -10,6 +10,11 @@ octopus:
       host: localhost
       database: mint2
       username: root
+    slave2:
+      adapter: mysql2
+      host: localhost
+      database: mint
+      username: root
   production:
     slave1:
       adapter: mysql2
