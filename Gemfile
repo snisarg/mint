@@ -21,7 +21,7 @@ gem 'twitter'
 gem 'tweetstream'
 
 # Gem for DB sharding and Master Slave config
-gem 'ar-octopus'
+gem 'ar-octopus', '0.8.5', :require => "octopus"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
