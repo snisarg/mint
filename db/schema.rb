@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151130010736) do
+ActiveRecord::Schema.define(version: 20151105191932) do
 
   create_table "hashtag_lists", force: :cascade do |t|
     t.integer  "FK_tweet_id",   limit: 4
