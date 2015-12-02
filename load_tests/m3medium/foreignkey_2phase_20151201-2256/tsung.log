@@ -1,0 +1,4742 @@
+# stats: dump at 1449010599
+stats: users 0 0
+stats: users_count 0 0
+stats: finish_users_count 0 0
+# stats: dump at 1449010609
+stats: users 9 9
+stats: users_count 9 9
+stats: finish_users_count 0 0
+stats: connect 9 369.1906467013889 719.7086586315014 2141.654052734375 2.4140625 0 0
+stats: size_sent 1953 1953
+stats: connected 9 9
+# stats: dump at 1449010619
+stats: users 17 17
+stats: users_count 8 17
+stats: finish_users_count 0 0
+stats: connect 8 6.31011962890625 3.617417859081259 2141.654052734375 2.380859375 369.1906467013889 9
+stats: size_sent 1736 3689
+stats: connected 8 17
+# stats: dump at 1449010629
+stats: users 24 24
+stats: users_count 7 24
+stats: finish_users_count 0 0
+stats: connect 7 4.18017578125 1.885816243721191 2141.654052734375 2.380859375 198.42333984375 17
+stats: size_sent 1519 5208
+stats: connected 7 24
+# stats: dump at 1449010639
+stats: users 36 36
+stats: users_count 12 36
+stats: finish_users_count 0 0
+stats: connect 12 4.386393229166667 2.577558365278292 2141.654052734375 2.02099609375 141.76908365885416 24
+stats: newphase 1 1
+stats: size_sent 2604 7812
+stats: connected 12 36
+# stats: dump at 1449010649
+stats: users 52 52
+stats: users_count 16 52
+stats: finish_users_count 0 0
+stats: connect 16 4.567138671875 3.504223312696097 2141.654052734375 2.02099609375 95.974853515625 36
+stats: newphase 0 1
+stats: size_sent 3472 11284
+stats: connected 16 52
+# stats: dump at 1449010659
+stats: users 71 71
+stats: users_count 19 71
+stats: finish_users_count 0 0
+stats: connect 19 5.567883943256579 3.6665874677093777 2141.654052734375 2.02099609375 67.84940279447116 52
+stats: newphase 0 1
+stats: size_sent 4123 15407
+stats: connected 19 71
+# stats: dump at 1449010669
+stats: users 75 75
+stats: users_count 4 75
+stats: finish_users_count 0 0
+stats: connect 4 3.61669921875 2.1147010814286427 2141.654052734375 2.02099609375 51.18251746808979 71
+stats: newphase 0 1
+stats: size_sent 868 16275
+stats: connected 4 75
+# stats: dump at 1449010679
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010689
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010699
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010709
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010719
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010729
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010739
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010749
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010759
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010769
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010779
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010789
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010799
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010809
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010819
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010829
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010839
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010849
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010859
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010869
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: newphase 0 1
+stats: size_sent 0 16275
+stats: connected 0 75
+# stats: dump at 1449010879
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 271875.0400390625 0.0 271875.0400390625 271875.0400390625 0 0
+stats: page 1 271875.0400390625 0.0 271875.0400390625 271875.0400390625 0 0
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 1
+stats: size_rcv 114577 114577
+stats: newphase 0 1
+stats: size_sent 236 16511
+stats: connected 0 75
+# stats: dump at 1449010889
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: page 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 1
+stats: size_rcv 0 114577
+stats: newphase 0 1
+stats: size_sent 0 16511
+stats: connected 0 75
+# stats: dump at 1449010899
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: page 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 1
+stats: size_rcv 0 114577
+stats: newphase 0 1
+stats: size_sent 0 16511
+stats: connected 0 75
+# stats: dump at 1449010909
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: page 0 0 0 271875.0400390625 271875.0400390625 271875.0400390625 1
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 1
+stats: size_rcv 0 114577
+stats: newphase 0 1
+stats: size_sent 0 16511
+stats: connected 0 75
+# stats: dump at 1449010919
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 5 311477.86279296875 1198.534656884586 313183.0549316406 271875.0400390625 271875.0400390625 1
+stats: page 5 311477.86279296875 1198.534656884586 313183.0549316406 271875.0400390625 271875.0400390625 1
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 5 6
+stats: size_rcv 573618 688195
+stats: newphase 0 1
+stats: size_sent 708 17219
+stats: connected 0 75
+# stats: dump at 1449010929
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 472 17691
+stats: connected 0 75
+# stats: dump at 1449010939
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010949
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010959
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010969
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010979
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010989
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449010999
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011009
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011019
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011029
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011039
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011049
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011059
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011069
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011079
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011089
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011099
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011109
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011119
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011129
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011139
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011149
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: page 0 0 0 313183.0549316406 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 6
+stats: size_rcv 0 688195
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011159
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 551106.2978515625 0.0 551106.2978515625 271875.0400390625 304877.3923339844 6
+stats: page 1 551106.2978515625 0.0 551106.2978515625 271875.0400390625 304877.3923339844 6
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 7
+stats: size_rcv 114577 802772
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011169
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: page 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 7
+stats: size_rcv 0 802772
+stats: newphase 0 1
+stats: size_sent 0 17691
+stats: connected 0 75
+# stats: dump at 1449011179
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: page 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 7
+stats: size_rcv 0 802772
+stats: newphase 0 1
+stats: size_sent 236 17927
+stats: connected 0 75
+# stats: dump at 1449011189
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: page 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 7
+stats: size_rcv 0 802772
+stats: newphase 0 1
+stats: size_sent 0 17927
+stats: connected 0 75
+# stats: dump at 1449011199
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: page 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 7
+stats: size_rcv 0 802772
+stats: newphase 0 1
+stats: size_sent 0 17927
+stats: connected 0 75
+# stats: dump at 1449011209
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: page 0 0 0 551106.2978515625 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 7
+stats: size_rcv 0 802772
+stats: newphase 0 1
+stats: size_sent 0 17927
+stats: connected 0 75
+# stats: dump at 1449011219
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 4 607007.2293701172 3413.547141563384 610710.7229003906 271875.0400390625 340052.950265067 7
+stats: page 4 607007.2293701172 3413.547141563384 610710.7229003906 271875.0400390625 340052.950265067 7
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 4 11
+stats: size_rcv 459800 1262572
+stats: newphase 0 1
+stats: size_sent 472 18399
+stats: connected 0 75
+# stats: dump at 1449011229
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 608848.7160644531 0.0 610710.7229003906 271875.0400390625 437127.2335759943 11
+stats: page 1 608848.7160644531 0.0 610710.7229003906 271875.0400390625 437127.2335759943 11
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 12
+stats: size_rcv 114815 1377387
+stats: newphase 0 1
+stats: size_sent 708 19107
+stats: connected 0 75
+# stats: dump at 1449011239
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011249
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011259
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011269
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011279
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011289
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011299
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011309
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011319
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011329
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011339
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011349
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011359
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011369
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011379
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011389
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011399
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011409
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011419
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011429
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011439
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: page 0 0 0 610710.7229003906 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 12
+stats: size_rcv 0 1377387
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011449
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 833685.3859863281 0.0 833685.3859863281 271875.0400390625 451437.3571166992 12
+stats: page 1 833685.3859863281 0.0 833685.3859863281 271875.0400390625 451437.3571166992 12
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 13
+stats: size_rcv 115177 1492564
+stats: newphase 0 1
+stats: size_sent 0 19107
+stats: connected 0 75
+# stats: dump at 1449011459
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 236 19343
+stats: connected 0 75
+# stats: dump at 1449011469
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 0 19343
+stats: connected 0 75
+# stats: dump at 1449011479
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 0 19343
+stats: connected 0 75
+# stats: dump at 1449011489
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 0 19343
+stats: connected 0 75
+# stats: dump at 1449011499
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 0 19343
+stats: connected 0 75
+# stats: dump at 1449011509
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: page 0 0 0 833685.3859863281 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 13
+stats: size_rcv 0 1492564
+stats: newphase 0 1
+stats: size_sent 0 19343
+stats: connected 0 75
+# stats: dump at 1449011519
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 4 900475.4410400391 3380.538035310481 904177.7019042969 271875.0400390625 480841.0516451322 13
+stats: page 4 900475.4410400391 3380.538035310481 904177.7019042969 271875.0400390625 480841.0516451322 13
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 4 17
+stats: size_rcv 458308 1950872
+stats: newphase 0 1
+stats: size_sent 472 19815
+stats: connected 0 75
+# stats: dump at 1449011529
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 911938.6279296875 0.0 911938.6279296875 271875.0400390625 579578.5550321691 17
+stats: page 1 911938.6279296875 0.0 911938.6279296875 271875.0400390625 579578.5550321691 17
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 18
+stats: size_rcv 114577 2065449
+stats: newphase 0 1
+stats: size_sent 472 20287
+stats: connected 0 75
+# stats: dump at 1449011539
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 236 20523
+stats: connected 0 75
+# stats: dump at 1449011549
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011559
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011569
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011579
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011589
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011599
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011609
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011619
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011629
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011639
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011649
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011659
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011669
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011679
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011689
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011699
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011709
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011719
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011729
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: page 0 0 0 911938.6279296875 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 18
+stats: size_rcv 0 2065449
+stats: newphase 0 1
+stats: size_sent 0 20523
+stats: connected 0 75
+# stats: dump at 1449011739
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1109850.0119628906 0.0 1109850.0119628906 271875.0400390625 598043.0035264757 18
+stats: page 1 1109850.0119628906 0.0 1109850.0119628906 271875.0400390625 598043.0035264757 18
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 19
+stats: size_rcv 114577 2180026
+stats: newphase 0 1
+stats: size_sent 236 20759
+stats: connected 0 75
+# stats: dump at 1449011749
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011759
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011769
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011779
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011789
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011799
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: page 0 0 0 1109850.0119628906 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 19
+stats: size_rcv 0 2180026
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011809
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1186381.1091308594 0.0 1186381.1091308594 271875.0400390625 624980.2144968134 19
+stats: page 1 1186381.1091308594 0.0 1186381.1091308594 271875.0400390625 624980.2144968134 19
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 20
+stats: size_rcv 115658 2295684
+stats: newphase 0 1
+stats: size_sent 0 20759
+stats: connected 0 75
+# stats: dump at 1449011819
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1193827.0048828125 0.0 1193827.0048828125 271875.0400390625 653050.2592285157 20
+stats: page 1 1193827.0048828125 0.0 1193827.0048828125 271875.0400390625 653050.2592285157 20
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 21
+stats: size_rcv 114577 2410261
+stats: newphase 0 1
+stats: size_sent 472 21231
+stats: connected 0 75
+# stats: dump at 1449011829
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 1198277.0158691406 1158.652099609375 1199435.66796875 271875.0400390625 678801.5328311012 21
+stats: page 2 1198277.0158691406 1158.652099609375 1199435.66796875 271875.0400390625 678801.5328311012 21
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 23
+stats: size_rcv 229607 2639868
+stats: newphase 0 1
+stats: size_sent 472 21703
+stats: connected 0 75
+# stats: dump at 1449011839
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1201016.6711425781 0.0 1201016.6711425781 271875.0400390625 723973.3139648438 23
+stats: page 1 1201016.6711425781 0.0 1201016.6711425781 271875.0400390625 723973.3139648438 23
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 24
+stats: size_rcv 114577 2754445
+stats: newphase 0 1
+stats: size_sent 236 21939
+stats: connected 0 75
+# stats: dump at 1449011849
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011859
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011869
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011879
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011889
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011899
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011909
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011919
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011929
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011939
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011949
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011959
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011969
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011979
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011989
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449011999
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449012009
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: page 0 0 0 1201016.6711425781 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 24
+stats: size_rcv 0 2754445
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449012019
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1386767.7060546875 0.0 1386767.7060546875 271875.0400390625 743850.120513916 24
+stats: page 1 1386767.7060546875 0.0 1386767.7060546875 271875.0400390625 743850.120513916 24
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 25
+stats: size_rcv 115532 2869977
+stats: newphase 0 1
+stats: size_sent 0 21939
+stats: connected 0 75
+# stats: dump at 1449012029
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 236 22175
+stats: connected 0 75
+# stats: dump at 1449012039
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012049
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012059
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012069
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012079
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012089
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012099
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: page 0 0 0 1386767.7060546875 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 25
+stats: size_rcv 0 2869977
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012109
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1472867.7199707031 0.0 1472867.7199707031 271875.0400390625 769566.8239355469 25
+stats: page 1 1472867.7199707031 0.0 1472867.7199707031 271875.0400390625 769566.8239355469 25
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 26
+stats: size_rcv 114577 2984554
+stats: newphase 0 1
+stats: size_sent 0 22175
+stats: connected 0 75
+# stats: dump at 1449012119
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 1481128.5864257813 1415.844482421875 1482544.4309082031 271875.0400390625 796616.8583984375 26
+stats: page 2 1481128.5864257813 1415.844482421875 1482544.4309082031 271875.0400390625 796616.8583984375 26
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 28
+stats: size_rcv 229162 3213716
+stats: newphase 0 1
+stats: size_sent 236 22411
+stats: connected 0 75
+# stats: dump at 1449012129
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1482544.4309082031 271875.0400390625 845510.5532575335 28
+stats: page 0 0 0 1482544.4309082031 271875.0400390625 845510.5532575335 28
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 28
+stats: size_rcv 0 3213716
+stats: newphase 0 1
+stats: size_sent 236 22647
+stats: connected 0 75
+# stats: dump at 1449012139
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 1495459.5549316406 2178.18505859375 1497637.7399902344 271875.0400390625 845510.5532575335 28
+stats: page 2 1495459.5549316406 2178.18505859375 1497637.7399902344 271875.0400390625 845510.5532575335 28
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 30
+stats: size_rcv 229154 3442870
+stats: newphase 0 1
+stats: size_sent 472 23119
+stats: connected 0 75
+# stats: dump at 1449012149
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 236 23355
+stats: connected 0 75
+# stats: dump at 1449012159
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012169
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012179
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012189
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012199
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012209
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012219
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012229
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012239
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012249
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012259
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012269
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012279
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012289
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012299
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: page 0 0 0 1497637.7399902344 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 30
+stats: size_rcv 0 3442870
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012309
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1669155.6408691406 0.0 1669155.6408691406 271875.0400390625 888840.486702474 30
+stats: page 1 1669155.6408691406 0.0 1669155.6408691406 271875.0400390625 888840.486702474 30
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 31
+stats: size_rcv 114724 3557594
+stats: newphase 0 1
+stats: size_sent 0 23355
+stats: connected 0 75
+# stats: dump at 1449012319
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 236 23591
+stats: connected 0 75
+# stats: dump at 1449012329
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012339
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012349
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012359
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012369
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012379
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012389
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012399
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: page 0 0 0 1669155.6408691406 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 31
+stats: size_rcv 0 3557594
+stats: newphase 0 1
+stats: size_sent 0 23591
+stats: connected 0 75
+# stats: dump at 1449012409
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1769979.0981445313 0.0 1769979.0981445313 271875.0400390625 914011.9432884954 31
+stats: page 1 1769979.0981445313 0.0 1769979.0981445313 271875.0400390625 914011.9432884954 31
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 32
+stats: size_rcv 114577 3672171
+stats: newphase 0 1
+stats: size_sent 236 23827
+stats: connected 0 75
+# stats: dump at 1449012419
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1775650.4978027344 0.0 1775650.4978027344 271875.0400390625 940760.9168777466 32
+stats: page 1 1775650.4978027344 0.0 1775650.4978027344 271875.0400390625 940760.9168777466 32
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 33
+stats: size_rcv 115182 3787353
+stats: newphase 0 1
+stats: size_sent 236 24063
+stats: connected 0 75
+# stats: dump at 1449012429
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1784041.4340820313 0.0 1784041.4340820313 271875.0400390625 966060.6011482008 33
+stats: page 1 1784041.4340820313 0.0 1784041.4340820313 271875.0400390625 966060.6011482008 33
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 34
+stats: size_rcv 115224 3902577
+stats: newphase 0 1
+stats: size_sent 236 24299
+stats: connected 0 75
+# stats: dump at 1449012439
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 1796967.4956054688 3285.3095703125 1800252.8051757813 271875.0400390625 990118.8609403722 34
+stats: page 2 1796967.4956054688 3285.3095703125 1800252.8051757813 271875.0400390625 990118.8609403722 34
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 36
+stats: size_rcv 230005 4132582
+stats: newphase 0 1
+stats: size_sent 236 24535
+stats: connected 0 75
+# stats: dump at 1449012449
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 236 24771
+stats: connected 0 75
+# stats: dump at 1449012459
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012469
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012479
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012489
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012499
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012509
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012519
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012529
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012539
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012549
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012559
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012569
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012579
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012589
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: page 0 0 0 1800252.8051757813 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 36
+stats: size_rcv 0 4132582
+stats: newphase 0 1
+stats: size_sent 0 24771
+stats: connected 0 75
+# stats: dump at 1449012599
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 1956242.212890625 0.0 1956242.212890625 271875.0400390625 1034943.7850884332 36
+stats: page 1 1956242.212890625 0.0 1956242.212890625 271875.0400390625 1034943.7850884332 36
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 37
+stats: size_rcv 114577 4247159
+stats: newphase 0 1
+stats: size_sent 236 25007
+stats: connected 0 75
+# stats: dump at 1449012609
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012619
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012629
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012639
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012649
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012659
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012669
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012679
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012689
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012699
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: page 0 0 0 1956242.212890625 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 37
+stats: size_rcv 0 4247159
+stats: newphase 0 1
+stats: size_sent 0 25007
+stats: connected 0 75
+# stats: dump at 1449012709
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2064012.2490234375 0.0 2064012.2490234375 271875.0400390625 1059843.7425966004 37
+stats: page 1 2064012.2490234375 0.0 2064012.2490234375 271875.0400390625 1059843.7425966004 37
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 38
+stats: size_rcv 114577 4361736
+stats: newphase 0 1
+stats: size_sent 236 25243
+stats: connected 0 75
+# stats: dump at 1449012719
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2069279.1689453125 0.0 2069279.1689453125 271875.0400390625 1086269.229607833 38
+stats: page 1 2069279.1689453125 0.0 2069279.1689453125 271875.0400390625 1086269.229607833 38
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 39
+stats: size_rcv 114577 4476313
+stats: newphase 0 1
+stats: size_sent 0 25243
+stats: connected 0 75
+# stats: dump at 1449012729
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2082353.0300292969 0.0 2082353.0300292969 271875.0400390625 1111474.6126677685 39
+stats: page 1 2082353.0300292969 0.0 2082353.0300292969 271875.0400390625 1111474.6126677685 39
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 40
+stats: size_rcv 114794 4591107
+stats: newphase 0 1
+stats: size_sent 472 25715
+stats: connected 0 75
+# stats: dump at 1449012739
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2094233.2890625 0.0 2094233.2890625 271875.0400390625 1135746.5731018067 40
+stats: page 1 2094233.2890625 0.0 2094233.2890625 271875.0400390625 1135746.5731018067 40
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 41
+stats: size_rcv 114682 4705789
+stats: newphase 0 1
+stats: size_sent 0 25715
+stats: connected 0 75
+# stats: dump at 1449012749
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2102166.184814453 0.0 2102166.184814453 271875.0400390625 1159124.2978813357 41
+stats: page 1 2102166.184814453 0.0 2102166.184814453 271875.0400390625 1159124.2978813357 41
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 42
+stats: size_rcv 114577 4820366
+stats: newphase 0 1
+stats: size_sent 472 26187
+stats: connected 0 75
+# stats: dump at 1449012759
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012769
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012779
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012789
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012799
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012809
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012819
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012829
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012839
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012849
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012859
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012869
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012879
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: page 0 0 0 2102166.184814453 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 42
+stats: size_rcv 0 4820366
+stats: newphase 0 1
+stats: size_sent 0 26187
+stats: connected 0 75
+# stats: dump at 1449012889
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2237480.4899902344 0.0 2237480.4899902344 271875.0400390625 1181577.676141648 42
+stats: page 1 2237480.4899902344 0.0 2237480.4899902344 271875.0400390625 1181577.676141648 42
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 43
+stats: size_rcv 114577 4934943
+stats: newphase 0 1
+stats: size_sent 236 26423
+stats: connected 0 75
+# stats: dump at 1449012899
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012909
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012919
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012929
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012939
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012949
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012959
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012969
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012979
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012989
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449012999
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: page 0 0 0 2237480.4899902344 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 43
+stats: size_rcv 0 4934943
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449013009
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2362837.6669921875 0.0 2362837.6669921875 271875.0400390625 1206133.5555334757 43
+stats: page 1 2362837.6669921875 0.0 2362837.6669921875 271875.0400390625 1206133.5555334757 43
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 44
+stats: size_rcv 114577 5049520
+stats: newphase 0 1
+stats: size_sent 0 26423
+stats: connected 0 75
+# stats: dump at 1449013019
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2366665.802001953 0.0 2366665.802001953 271875.0400390625 1232422.2853393555 44
+stats: page 1 2366665.802001953 0.0 2366665.802001953 271875.0400390625 1232422.2853393555 44
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 45
+stats: size_rcv 114577 5164097
+stats: newphase 0 1
+stats: size_sent 472 26895
+stats: connected 0 75
+# stats: dump at 1449013029
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2377709.469970703 0.0 2377709.469970703 271875.0400390625 1257627.6968207466 45
+stats: page 1 2377709.469970703 0.0 2377709.469970703 271875.0400390625 1257627.6968207466 45
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 46
+stats: size_rcv 114577 5278674
+stats: newphase 0 1
+stats: size_sent 236 27131
+stats: connected 0 75
+# stats: dump at 1449013039
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2377709.469970703 271875.0400390625 1281977.3005848762 46
+stats: page 0 0 0 2377709.469970703 271875.0400390625 1281977.3005848762 46
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 46
+stats: size_rcv 0 5278674
+stats: newphase 0 1
+stats: size_sent 0 27131
+stats: connected 0 75
+# stats: dump at 1449013049
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 2396881.3514404297 1703.7955322265625 2398585.1469726563 271875.0400390625 1281977.3005848762 46
+stats: page 2 2396881.3514404297 1703.7955322265625 2398585.1469726563 271875.0400390625 1281977.3005848762 46
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 48
+stats: size_rcv 230521 5509195
+stats: newphase 0 1
+stats: size_sent 236 27367
+stats: connected 0 75
+# stats: dump at 1449013059
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 236 27603
+stats: connected 0 75
+# stats: dump at 1449013069
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013079
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013089
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013099
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013109
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013119
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013129
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013139
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013149
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013159
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013169
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: page 0 0 0 2398585.1469726563 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 48
+stats: size_rcv 0 5509195
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013179
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2525686.9260253906 0.0 2525686.9260253906 271875.0400390625 1328431.636037191 48
+stats: page 1 2525686.9260253906 0.0 2525686.9260253906 271875.0400390625 1328431.636037191 48
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 49
+stats: size_rcv 114577 5623772
+stats: newphase 0 1
+stats: size_sent 0 27603
+stats: connected 0 75
+# stats: dump at 1449013189
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 236 27839
+stats: connected 0 75
+# stats: dump at 1449013199
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013209
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013219
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013229
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013239
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013249
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013259
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013269
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013279
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013289
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013299
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013309
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: page 0 0 0 2525686.9260253906 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 49
+stats: size_rcv 0 5623772
+stats: newphase 0 1
+stats: size_sent 0 27839
+stats: connected 0 75
+# stats: dump at 1449013319
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 2661596.1489257813 1272.97705078125 2662869.1259765625 271875.0400390625 1352865.4174655215 49
+stats: page 2 2661596.1489257813 1272.97705078125 2662869.1259765625 271875.0400390625 1352865.4174655215 49
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 51
+stats: size_rcv 229169 5852941
+stats: newphase 0 1
+stats: size_sent 472 28311
+stats: connected 0 75
+# stats: dump at 1449013329
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2670150.591796875 0.0 2670150.591796875 271875.0400390625 1404188.1912482767 51
+stats: page 1 2670150.591796875 0.0 2670150.591796875 271875.0400390625 1404188.1912482767 51
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 52
+stats: size_rcv 116243 5969184
+stats: newphase 0 1
+stats: size_sent 236 28547
+stats: connected 0 75
+# stats: dump at 1449013339
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2670150.591796875 271875.0400390625 1428533.6220280575 52
+stats: page 0 0 0 2670150.591796875 271875.0400390625 1428533.6220280575 52
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 52
+stats: size_rcv 0 5969184
+stats: newphase 0 1
+stats: size_sent 0 28547
+stats: connected 0 75
+# stats: dump at 1449013349
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 2695643.607055664 770.7091064453125 2696414.3161621094 271875.0400390625 1428533.6220280575 52
+stats: page 2 2695643.607055664 770.7091064453125 2696414.3161621094 271875.0400390625 1428533.6220280575 52
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 54
+stats: size_rcv 230464 6199648
+stats: newphase 0 1
+stats: size_sent 236 28783
+stats: connected 0 75
+# stats: dump at 1449013359
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 236 29019
+stats: connected 0 75
+# stats: dump at 1449013369
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013379
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013389
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013399
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013409
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013419
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013429
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013439
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013449
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013459
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: page 0 0 0 2696414.3161621094 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 54
+stats: size_rcv 0 6199648
+stats: newphase 0 1
+stats: size_sent 0 29019
+stats: connected 0 75
+# stats: dump at 1449013469
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2810200.1149902344 0.0 2810200.1149902344 271875.0400390625 1475463.6214735243 54
+stats: page 1 2810200.1149902344 0.0 2810200.1149902344 271875.0400390625 1475463.6214735243 54
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 55
+stats: size_rcv 114577 6314225
+stats: newphase 0 1
+stats: size_sent 236 29255
+stats: connected 0 75
+# stats: dump at 1449013479
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013489
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013499
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013509
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013519
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013529
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013539
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013549
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013559
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013569
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013579
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013589
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013599
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: page 0 0 0 2810200.1149902344 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 55
+stats: size_rcv 0 6314225
+stats: newphase 0 1
+stats: size_sent 0 29255
+stats: connected 0 75
+# stats: dump at 1449013609
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2955519.360107422 0.0 2955519.360107422 271875.0400390625 1499731.5577192826 55
+stats: page 1 2955519.360107422 0.0 2955519.360107422 271875.0400390625 1499731.5577192826 55
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 56
+stats: size_rcv 114577 6428802
+stats: newphase 0 1
+stats: size_sent 236 29491
+stats: connected 0 75
+# stats: dump at 1449013619
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 2962351.596435547 3914.657470703125 2966266.25390625 271875.0400390625 1525727.7684762138 56
+stats: page 2 2962351.596435547 3914.657470703125 2966266.25390625 271875.0400390625 1525727.7684762138 56
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 58
+stats: size_rcv 230831 6659633
+stats: newphase 0 1
+stats: size_sent 236 29727
+stats: connected 0 75
+# stats: dump at 1449013629
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2966266.25390625 271875.0400390625 1575266.5211644666 58
+stats: page 0 0 0 2966266.25390625 271875.0400390625 1575266.5211644666 58
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 58
+stats: size_rcv 0 6659633
+stats: newphase 0 1
+stats: size_sent 236 29963
+stats: connected 0 75
+# stats: dump at 1449013639
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2966266.25390625 271875.0400390625 1575266.5211644666 58
+stats: page 0 0 0 2966266.25390625 271875.0400390625 1575266.5211644666 58
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 58
+stats: size_rcv 0 6659633
+stats: newphase 0 1
+stats: size_sent 0 29963
+stats: connected 0 75
+# stats: dump at 1449013649
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2990406.7719726563 0.0 2990406.7719726563 271875.0400390625 1575266.5211644666 58
+stats: page 1 2990406.7719726563 0.0 2990406.7719726563 271875.0400390625 1575266.5211644666 58
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 59
+stats: size_rcv 115191 6774824
+stats: newphase 0 1
+stats: size_sent 236 30199
+stats: connected 0 75
+# stats: dump at 1449013659
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 2997310.078857422 0.0 2997310.078857422 271875.0400390625 1599251.9491442663 59
+stats: page 1 2997310.078857422 0.0 2997310.078857422 271875.0400390625 1599251.9491442663 59
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 60
+stats: size_rcv 114577 6889401
+stats: newphase 0 1
+stats: size_sent 236 30435
+stats: connected 0 75
+# stats: dump at 1449013669
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013679
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013689
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013699
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013709
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013719
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013729
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013739
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013749
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: page 0 0 0 2997310.078857422 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 60
+stats: size_rcv 0 6889401
+stats: newphase 0 1
+stats: size_sent 0 30435
+stats: connected 0 75
+# stats: dump at 1449013759
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3099094.4592285156 0.0 3099094.4592285156 271875.0400390625 1622552.917972819 60
+stats: page 1 3099094.4592285156 0.0 3099094.4592285156 271875.0400390625 1622552.917972819 60
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 61
+stats: size_rcv 114577 7003978
+stats: newphase 0 1
+stats: size_sent 236 30671
+stats: connected 0 75
+# stats: dump at 1449013769
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013779
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013789
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013799
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013809
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013819
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013829
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013839
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013849
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013859
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013869
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013879
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013889
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013899
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: page 0 0 0 3099094.4592285156 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 61
+stats: size_rcv 0 7003978
+stats: newphase 0 1
+stats: size_sent 0 30671
+stats: connected 0 75
+# stats: dump at 1449013909
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 3251305.380493164 71.7664794921875 3251377.1469726563 271875.0400390625 1646758.5170097977 61
+stats: page 2 3251305.380493164 71.7664794921875 3251377.1469726563 271875.0400390625 1646758.5170097977 61
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 63
+stats: size_rcv 229175 7233153
+stats: newphase 0 1
+stats: size_sent 236 30907
+stats: connected 0 75
+# stats: dump at 1449013919
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3262746.3999023438 0.0 3262746.3999023438 271875.0400390625 1697696.5126759363 63
+stats: page 1 3262746.3999023438 0.0 3262746.3999023438 271875.0400390625 1697696.5126759363 63
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 64
+stats: size_rcv 114577 7347730
+stats: newphase 0 1
+stats: size_sent 236 31143
+stats: connected 0 75
+# stats: dump at 1449013929
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3262746.3999023438 271875.0400390625 1722150.4171638489 64
+stats: page 0 0 0 3262746.3999023438 271875.0400390625 1722150.4171638489 64
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 64
+stats: size_rcv 0 7347730
+stats: newphase 0 1
+stats: size_sent 236 31379
+stats: connected 0 75
+# stats: dump at 1449013939
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3262746.3999023438 271875.0400390625 1722150.4171638489 64
+stats: page 0 0 0 3262746.3999023438 271875.0400390625 1722150.4171638489 64
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 64
+stats: size_rcv 0 7347730
+stats: newphase 0 1
+stats: size_sent 0 31379
+stats: connected 0 75
+# stats: dump at 1449013949
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3292720.4841308594 0.0 3292720.4841308594 271875.0400390625 1722150.4171638489 64
+stats: page 1 3292720.4841308594 0.0 3292720.4841308594 271875.0400390625 1722150.4171638489 64
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 65
+stats: size_rcv 115128 7462858
+stats: newphase 0 1
+stats: size_sent 0 31379
+stats: connected 0 75
+# stats: dump at 1449013959
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3296653.9248046875 0.0 3296653.9248046875 271875.0400390625 1746313.033578726 65
+stats: page 1 3296653.9248046875 0.0 3296653.9248046875 271875.0400390625 1746313.033578726 65
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 66
+stats: size_rcv 114577 7577435
+stats: newphase 0 1
+stats: size_sent 472 31851
+stats: connected 0 75
+# stats: dump at 1449013969
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449013979
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449013989
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449013999
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014009
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014019
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014029
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014039
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: page 0 0 0 3296653.9248046875 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 66
+stats: size_rcv 0 7577435
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014049
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3383880.1420898438 0.0 3383880.1420898438 271875.0400390625 1769803.0470821497 66
+stats: page 1 3383880.1420898438 0.0 3383880.1420898438 271875.0400390625 1769803.0470821497 66
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 67
+stats: size_rcv 114577 7692012
+stats: newphase 0 1
+stats: size_sent 0 31851
+stats: connected 0 75
+# stats: dump at 1449014059
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 236 32087
+stats: connected 0 75
+# stats: dump at 1449014069
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014079
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014089
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014099
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014109
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014119
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014129
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014139
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014149
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014159
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014169
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014179
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014189
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014199
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: page 0 0 0 3383880.1420898438 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 67
+stats: size_rcv 0 7692012
+stats: newphase 0 1
+stats: size_sent 0 32087
+stats: connected 0 75
+# stats: dump at 1449014209
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 3547716.2915039063 791.196533203125 3548507.4880371094 271875.0400390625 1793893.7499927122 67
+stats: page 2 3547716.2915039063 791.196533203125 3548507.4880371094 271875.0400390625 1793893.7499927122 67
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 69
+stats: size_rcv 229154 7921166
+stats: newphase 0 1
+stats: size_sent 236 32323
+stats: connected 0 75
+# stats: dump at 1449014219
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 1 3558187.1958007813 0.0 3558187.1958007813 271875.0400390625 1844729.185978544 69
+stats: page 1 3558187.1958007813 0.0 3558187.1958007813 271875.0400390625 1844729.185978544 69
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 70
+stats: size_rcv 114905 8036071
+stats: newphase 0 1
+stats: size_sent 236 32559
+stats: connected 0 75
+# stats: dump at 1449014229
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 3329255.0330810547 16537.533081054688 3558187.1958007813 271875.0400390625 1869207.157547433 70
+stats: page 2 3329255.0330810547 16537.533081054688 3558187.1958007813 271875.0400390625 1869207.157547433 70
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 72
+stats: size_rcv 9804 8045875
+stats: newphase 0 1
+stats: size_sent 642 33201
+stats: connected 0 75
+# stats: dump at 1449014239
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 2 3315702.035522461 1791.0426025390625 3558187.1958007813 271875.0400390625 1909764.0429789226 72
+stats: page 2 3315702.035522461 1791.0426025390625 3558187.1958007813 271875.0400390625 1909764.0429789226 72
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 2 74
+stats: size_rcv 9803 8055678
+stats: newphase 0 1
+stats: size_sent 406 33607
+stats: connected 0 75
+# stats: dump at 1449014249
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 3 3410971.8540039063 125206.85065232267 3588030.2438964844 271875.0400390625 1947762.3671017208 74
+stats: page 3 3410971.8540039063 125206.85065232267 3588030.2438964844 271875.0400390625 1947762.3671017208 74
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 3 77
+stats: size_rcv 124381 8180059
+stats: newphase 0 1
+stats: size_sent 406 34013
+stats: connected 0 75
+# stats: dump at 1449014259
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 6 3135141.2501627603 205984.1778037585 3594570.3669433594 271875.0400390625 2004770.5289290787 77
+stats: page 6 3135141.2501627603 205984.1778037585 3594570.3669433594 271875.0400390625 2004770.5289290787 77
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 6 83
+stats: size_rcv 139819 8319878
+stats: newphase 0 1
+stats: size_sent 642 34655
+stats: connected 0 75
+# stats: dump at 1449014269
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 7 2794470.330636161 100547.46998106546 3594570.3669433594 271875.0400390625 2086484.075042357 83
+stats: page 7 2794470.330636161 100547.46998106546 3594570.3669433594 271875.0400390625 2086484.075042357 83
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 7 90
+stats: size_rcv 34314 8354192
+stats: newphase 0 1
+stats: size_sent 1454 36109
+stats: connected 0 75
+# stats: dump at 1449014279
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 6 2467328.237060547 29536.863876990687 3594570.3669433594 271875.0400390625 2141549.6726996526 90
+stats: page 6 2467328.237060547 29536.863876990687 3594570.3669433594 271875.0400390625 2141549.6726996526 90
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 6 96
+stats: size_rcv 29411 8383603
+stats: newphase 0 1
+stats: size_sent 1624 37733
+stats: connected 0 75
+# stats: dump at 1449014289
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 7 2146321.4265834265 78143.99570672015 3594570.3669433594 271875.0400390625 2161910.8329722085 96
+stats: page 7 2146321.4265834265 78143.99570672015 3594570.3669433594 271875.0400390625 2161910.8329722085 96
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 7 103
+stats: size_rcv 34314 8417917
+stats: newphase 0 1
+stats: size_sent 1218 38951
+stats: connected 0 75
+# stats: dump at 1449014299
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 6 1840810.2183430989 63360.52316272554 3594570.3669433594 271875.0400390625 2160851.358751612 103
+stats: page 6 1840810.2183430989 63360.52316272554 3594570.3669433594 271875.0400390625 2160851.358751612 103
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 6 109
+stats: size_rcv 29412 8447329
+stats: newphase 0 1
+stats: size_sent 812 39763
+stats: connected 0 75
+# stats: dump at 1449014309
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 6 1551926.1315104167 56962.98318153779 3594570.3669433594 271875.0400390625 2143234.415242886 109
+stats: page 6 1551926.1315104167 56962.98318153779 3594570.3669433594 271875.0400390625 2143234.415242886 109
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 6 115
+stats: size_rcv 29485 8476814
+stats: newphase 0 1
+stats: size_sent 1421 41184
+stats: connected 0 75
+# stats: dump at 1449014319
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 5 1285298.9859375 14872.352737721503 3594570.3669433594 271875.0400390625 2112383.54826554 115
+stats: page 5 1285298.9859375 14872.352737721503 3594570.3669433594 271875.0400390625 2112383.54826554 115
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 5 120
+stats: size_rcv 24510 8501324
+stats: newphase 0 1
+stats: size_sent 1624 42808
+stats: connected 0 75
+# stats: dump at 1449014329
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 9 1263129.166232639 855093.1299577786 3662659.8452148438 271875.0400390625 2077921.6915018717 120
+stats: page 9 1263129.166232639 855093.1299577786 3662659.8452148438 271875.0400390625 2077921.6915018717 120
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 9 129
+stats: size_rcv 153925 8655249
+stats: newphase 0 1
+stats: size_sent 1218 44026
+stats: connected 0 75
+# stats: dump at 1449014339
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 8 579548.1835632324 127777.39750169095 3662659.8452148438 271875.0400390625 2021075.701366809 129
+stats: page 8 579548.1835632324 127777.39750169095 3662659.8452148438 271875.0400390625 2021075.701366809 129
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 8 137
+stats: size_rcv 39216 8694465
+stats: newphase 0 1
+stats: size_sent 1657 45683
+stats: connected 0 75
+# stats: dump at 1449014349
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 8 212497.1944580078 115327.29391614626 3662659.8452148438 119633.88989257813 1936898.9120060161 137
+stats: page 8 212497.1944580078 115327.29391614626 3662659.8452148438 119633.88989257813 1936898.9120060161 137
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 8 145
+stats: size_rcv 32304 8726769
+stats: newphase 0 1
+stats: size_sent 1825 47508
+stats: connected 0 75
+# stats: dump at 1449014359
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 8 106224.94891357422 7494.3574539566125 3662659.8452148438 97401.02001953125 1841759.5068999191 145
+stats: page 8 106224.94891357422 7494.3574539566125 3662659.8452148438 97401.02001953125 1841759.5068999191 145
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 8 153
+stats: size_rcv 14530 8741299
+stats: newphase 0 1
+stats: size_sent 1208 48716
+stats: connected 0 75
+# stats: dump at 1449014369
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 8 97403.90902709961 1421.8708860415204 3662659.8452148438 95359.95483398438 1751012.6019071692 153
+stats: page 8 97403.90902709961 1421.8708860415204 3662659.8452148438 95359.95483398438 1751012.6019071692 153
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 8 161
+stats: size_rcv 14508 8755807
+stats: newphase 0 1
+stats: size_sent 2215 50931
+stats: connected 0 75
+# stats: dump at 1449014379
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 10 95219.61437988281 1725.7239388322037 3662659.8452148438 91473.17211914063 1668845.7103354887 161
+stats: page 10 95219.61437988281 1725.7239388322037 3662659.8452148438 91473.17211914063 1668845.7103354887 161
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 10 171
+stats: size_rcv 13725 8769532
+stats: newphase 0 1
+stats: size_sent 1610 52541
+stats: connected 0 75
+# stats: dump at 1449014389
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 9 89455.91753472222 2967.542724209515 3662659.8452148438 85062.62890625 1576820.7924433479 171
+stats: page 9 89455.91753472222 2967.542724209515 3662659.8452148438 85062.62890625 1576820.7924433479 171
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 9 180
+stats: size_rcv 12353 8781885
+stats: newphase 0 1
+stats: size_sent 1809 54350
+stats: connected 0 75
+# stats: dump at 1449014399
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 9 83780.58694118923 1731.672033373205 3662659.8452148438 81208.83911132813 1502452.5486979166 180
+stats: page 9 83780.58694118923 1731.672033373205 3662659.8452148438 81208.83911132813 1502452.5486979166 180
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 9 189
+stats: size_rcv 12373 8794258
+stats: newphase 0 1
+stats: size_sent 1407 55757
+stats: connected 0 75
+# stats: dump at 1449014409
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 8 81657.6909790039 1978.5155611676785 3662659.8452148438 79037.06591796875 1434896.7409952153 189
+stats: page 8 81657.6909790039 1978.5155611676785 3662659.8452148438 79037.06591796875 1434896.7409952153 189
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 8 197
+stats: size_rcv 10977 8805235
+stats: newphase 0 1
+stats: size_sent 1809 57566
+stats: connected 0 75
+# stats: dump at 1449014419
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 9 80096.60367838542 1186.697418026816 3662659.8452148438 78453.44506835938 1379942.8709437957 197
+stats: page 9 80096.60367838542 1186.697418026816 3662659.8452148438 78453.44506835938 1379942.8709437957 197
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 9 206
+stats: size_rcv 15882 8821117
+stats: newphase 0 1
+stats: size_sent 2213 59779
+stats: connected 0 75
+# stats: dump at 1449014429
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 14 77641.32734026227 3332.308594899843 3662659.8452148438 71763.626953125 1323153.470917637 206
+stats: page 14 77641.32734026227 3332.308594899843 3662659.8452148438 71763.626953125 1323153.470917637 206
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 14 220
+stats: size_rcv 100623 8921740
+stats: newphase 0 1
+stats: size_sent 1650 61429
+stats: connected 0 75
+# stats: dump at 1449014439
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 21 66132.66257440476 5056.445287550163 3662659.8452148438 58848.6650390625 1243893.6072354403 220
+stats: page 21 66132.66257440476 5056.445287550163 3662659.8452148438 58848.6650390625 1243893.6072354403 220
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 21 241
+stats: size_rcv 259641 9181381
+stats: newphase 0 1
+stats: size_sent 5094 66523
+stats: connected 0 75
+# stats: dump at 1449014449
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 28 46266.71772984096 7272.787058607133 3662659.8452148438 35796.7001953125 1141267.1348790845 241
+stats: page 28 46266.71772984096 7272.787058607133 3662659.8452148438 35796.7001953125 1141267.1348790845 241
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 28 269
+stats: size_rcv 418478 9599859
+stats: newphase 0 1
+stats: size_sent 5748 72271
+stats: connected 0 75
+# stats: dump at 1449014459
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 20 29529.33621826172 3900.675431169315 3662659.8452148438 23658.631103515625 1027289.3962910592 269
+stats: page 20 29529.33621826172 3900.675431169315 3662659.8452148438 23658.631103515625 1027289.3962910592 269
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 20 289
+stats: size_rcv 328071 9927930
+stats: newphase 0 1
+stats: size_sent 6519 78790
+stats: connected 0 75
+# stats: dump at 1449014469
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 13 28572.016244741586 2048.348374370769 3662659.8452148438 23658.631103515625 958240.2571856753 289
+stats: page 13 28572.016244741586 2048.348374370769 3662659.8452148438 23658.631103515625 958240.2571856753 289
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 13 302
+stats: size_rcv 426820 10354750
+stats: newphase 0 1
+stats: size_sent 2102 80892
+stats: connected 0 75
+# stats: dump at 1449014479
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 10 34104.63120117188 1485.0226410134187 3662659.8452148438 23658.631103515625 918221.4256219927 302
+stats: page 10 34104.63120117188 1485.0226410134187 3662659.8452148438 23658.631103515625 918221.4256219927 302
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 10 312
+stats: size_rcv 318562 10673312
+stats: newphase 0 1
+stats: size_sent 3396 84288
+stats: connected 0 75
+# stats: dump at 1449014489
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 12 39610.04404703776 1857.456922355 3662659.8452148438 23658.631103515625 889884.3488777357 312
+stats: page 12 39610.04404703776 1857.456922355 3662659.8452148438 23658.631103515625 889884.3488777357 312
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 12 324
+stats: size_rcv 433032 11106344
+stats: newphase 0 1
+stats: size_sent 2061 86349
+stats: connected 0 75
+# stats: dump at 1449014499
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 10 45712.59216308594 1968.5549578395865 3662659.8452148438 23658.631103515625 858392.7079580801 324
+stats: page 10 45712.59216308594 1968.5549578395865 3662659.8452148438 23658.631103515625 858392.7079580801 324
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 10 334
+stats: size_rcv 360859 11467203
+stats: newphase 0 1
+stats: size_sent 1212 87561
+stats: connected 0 75
+# stats: dump at 1449014509
+stats: users 75 75
+stats: users_count 0 75
+stats: finish_users_count 0 0
+stats: request 13 635653.4972017729 1368631.6838703547 3846428.5798339844 23658.631103515625 834060.967964218 334
+stats: page 13 635653.4972017729 1368631.6838703547 3846428.5798339844 23658.631103515625 834060.967964218 334
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 13 347
+stats: size_rcv 605794 12072997
+stats: newphase 0 1
+stats: size_sent 3509 91070
+stats: connected 0 75
+# stats: dump at 1449014519
+stats: users 68 75
+stats: session 7 3906506.4317103797 4261.530131859759 3911528.9489746094 3899525.0681152344 0 0
+stats: users_count 0 75
+stats: finish_users_count 7 7
+stats: request 20 54877.694067382814 1985.896137234738 3846428.5798339844 23658.631103515625 826627.8350538095 347
+stats: page 20 54877.694067382814 1985.896137234738 3846428.5798339844 23658.631103515625 826627.8350538095 347
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 20 367
+stats: size_rcv 1355345 13428342
+stats: newphase 0 1
+stats: size_sent 2256 93326
+stats: connected -7 68
+# stats: dump at 1449014529
+stats: users 53 75
+stats: session 15 3909807.171468099 8564.566123501645 3924621.037109375 3893850.6450195313 3906506.4317103797 7
+stats: users_count 0 75
+stats: finish_users_count 15 22
+stats: request 20 49985.1333984375 1437.1224791000254 3846428.5798339844 23658.631103515625 784570.6066621785 367
+stats: page 20 49985.1333984375 1437.1224791000254 3846428.5798339844 23658.631103515625 784570.6066621785 367
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 20 387
+stats: size_rcv 2082202 15510544
+stats: newphase 0 1
+stats: size_sent 1212 94538
+stats: connected -15 53
+# stats: dump at 1449014539
+stats: users 30 75
+stats: session 23 3896374.0077381963 11517.404158482295 3928071.375 3885144.2810058594 3908756.9360906426 22
+stats: users_count 0 75
+stats: finish_users_count 23 45
+stats: request 24 40334.89269002279 5626.18613827326 3846428.5798339844 23658.631103515625 746607.5331084968 387
+stats: page 24 40334.89269002279 5626.18613827326 3846428.5798339844 23658.631103515625 746607.5331084968 387
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 24 411
+stats: size_rcv 2955932 18466476
+stats: newphase 0 1
+stats: size_sent 1010 95548
+stats: connected -23 30
+# stats: dump at 1449014549
+stats: users 10 75
+stats: session 20 3895303.236022949 6172.074122818857 3928071.375 3885144.2810058594 3902427.8838216146 45
+stats: users_count 0 75
+stats: finish_users_count 20 65
+stats: request 22 30645.006924715908 2774.683285398314 3846428.5798339844 23658.631103515625 705365.335127856 411
+stats: page 22 30645.006924715908 2774.683285398314 3846428.5798339844 23658.631103515625 705365.335127856 411
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 22 433
+stats: size_rcv 2454133 20920609
+stats: newphase 0 1
+stats: size_sent 404 95952
+stats: connected -19 11
+# stats: dump at 1449014559
+stats: users 2 75
+stats: session 8 3897340.8165893555 7042.934096878269 3928071.375 3885144.2810058594 3900235.6844989485 65
+stats: users_count 0 75
+stats: finish_users_count 8 73
+stats: request 11 15171.555775035511 7295.040431241483 3846428.5798339844 226.284912109375 671083.9327711145 433
+stats: page 11 15171.555775035511 7295.040431241483 3846428.5798339844 226.284912109375 671083.9327711145 433
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 11 444
+stats: size_rcv 1155597 22076206
+stats: newphase 0 1
+stats: size_sent 647 96599
+stats: connected -9 2
+# stats: dump at 1449014569
+stats: users 1 75
+stats: session 1 3905402.2041015625 0.0 3928071.375 3885144.2810058594 3899918.438700637 73
+stats: users_count 0 75
+stats: finish_users_count 1 74
+stats: request 5 539.169580078125 172.4254678366975 3846428.5798339844 225.3408203125 654833.8513590494 444
+stats: page 5 539.169580078125 172.4254678366975 3846428.5798339844 225.3408203125 654833.8513590494 444
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 5 449
+stats: size_rcv 215243 22291449
+stats: newphase 0 1
+stats: size_sent 849 97448
+stats: connected -1 1
+# stats: dump at 1449014579
+stats: users 0 75
+stats: session 1 3914634.5739746094 0.0 3928071.375 3885144.2810058594 3899992.5436384873 74
+stats: users_count 0 75
+stats: finish_users_count 1 75
+stats: request 1 438.60693359375 0.0 3846428.5798339844 225.3408203125 647547.7190452524 449
+stats: page 1 438.60693359375 0.0 3846428.5798339844 225.3408203125 647547.7190452524 449
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 1 450
+stats: size_rcv 127530 22418979
+stats: newphase 0 1
+stats: size_sent 202 97650
+stats: connected -1 0
+# stats: dump at 1449014589
+stats: users 0 75
+stats: session 0 0 0 3928071.375 3885144.2810058594 3900187.770709635 75
+stats: users_count 0 75
+stats: finish_users_count 0 75
+stats: request 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: page 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 450
+stats: size_rcv 0 22418979
+stats: newphase 0 1
+stats: size_sent 0 97650
+stats: connected 0 0
+# stats: dump at 1449014599
+stats: users 0 75
+stats: session 0 0 0 3928071.375 3885144.2810058594 3900187.770709635 75
+stats: users_count 0 75
+stats: finish_users_count 0 75
+stats: request 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: page 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 450
+stats: size_rcv 0 22418979
+stats: newphase 0 1
+stats: size_sent 0 97650
+stats: connected 0 0
+# stats: dump at 1449014609
+stats: users 0 75
+stats: session 0 0 0 3928071.375 3885144.2810058594 3900187.770709635 75
+stats: users_count 0 75
+stats: finish_users_count 0 75
+stats: request 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: page 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 450
+stats: size_rcv 0 22418979
+stats: newphase 0 1
+stats: size_sent 0 97650
+stats: connected 0 0
+# stats: dump at 1449014619
+stats: users 0 75
+stats: session 0 0 0 3928071.375 3885144.2810058594 3900187.770709635 75
+stats: users_count 0 75
+stats: finish_users_count 0 75
+stats: request 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: page 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 450
+stats: size_rcv 0 22418979
+stats: newphase 0 1
+stats: size_sent 0 97650
+stats: connected 0 0
+# stats: dump at 1449014622
+stats: users 0 75
+stats: session 0 0 0 3928071.375 3885144.2810058594 3900187.770709635 75
+stats: users_count 0 75
+stats: finish_users_count 0 75
+stats: request 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: page 0 0 0 3846428.5798339844 225.3408203125 646109.6987961155 450
+stats: connect 0 0 0 2141.654052734375 2.02099609375 48.645673828125 75
+stats: 200 0 450
+stats: size_rcv 0 22418979
+stats: newphase 0 1
+stats: size_sent 0 97650
+stats: connected 0 0
+EndMonitor:{1449,14622,661954}
