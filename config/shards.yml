@@ -17,6 +17,6 @@ octopus:
       database: rails_app
       username: root
       password: password
-    slave1:
+    slave2:
       adapter: mysql2
       database: rails_app
