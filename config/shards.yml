@@ -8,7 +8,7 @@ octopus:
     slave2:
       adapter: mysql2
       host: localhost
-      database: rails_app
+      database: mint2
       username: root
   production:
     slave1:
