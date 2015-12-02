@@ -13,12 +13,12 @@ octopus:
     slave2:
       adapter: mysql2
       host: localhost
-      database: mint3
+      database: mint
       username: root
   production:
     slave1:
       adapter: mysql2
-      host: mint-multipletry-nooptimizations.cz2moefkl3s1.us-west-2.rds.amazonaws.com
+      host: mint-multiple-latlongindexing.cz2moefkl3s1.us-west-2.rds.amazonaws.com
       database: rails_app
       username: root
       password: password
