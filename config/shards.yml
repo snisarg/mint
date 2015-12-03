@@ -18,7 +18,7 @@ octopus:
   production:
     slave1:
       adapter: mysql2
-      host: mint-rdsonly-m3medium.cz2moefkl3s1.us-west-2.rds.amazonaws.com
+      host: mint-shard-med1.cz2moefkl3s1.us-west-2.rds.amazonaws.com
       database: rails_app
       username: root
       password: password
@@ -27,13 +27,13 @@ octopus:
       database: rails_app
     slave3:
       adapter: mysql2
-      host: mint-base-multi.cz2moefkl3s1.us-west-2.rds.amazonaws.com
+      host: mint-sharding-med2.cz2moefkl3s1.us-west-2.rds.amazonaws.com
       database: rails_app
       username: root
       password: password
     slave4:
       adapter: mysql2
-      host: mint-shard3-bada.cz2moefkl3s1.us-west-2.rds.amazonaws.com
+      host: mint-shard-med3.cz2moefkl3s1.us-west-2.rds.amazonaws.com
       database: rails_app
       username: root
       password: password
