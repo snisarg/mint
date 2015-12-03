@@ -1,4 +1,5 @@
 class HashtagController < ApplicationController
+
   def index
     hashtag_request_list = params[:tags].split(',')
     hash_tweets = Hashtag.where(text: hashtag_request_list)
