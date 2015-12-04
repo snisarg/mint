@@ -293,6 +293,8 @@
                                 var user = users[name];
                                 //if (user == undefined || !user.hasOwnProperty('name'))
                                  //   continue;
+                                if (user.count < 10)
+                                    continue;
 
                                 console.log(user);
                                 console.log(user.count);
