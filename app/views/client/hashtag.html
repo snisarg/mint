@@ -214,6 +214,9 @@
 
                         var hashtags = [];
                         for( var key in data) {
+                            if (data[key] < 10)
+                                continue;
+
                             hashtags.push({
                                 "name": key,
                                 "count": data[key]
