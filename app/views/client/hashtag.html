@@ -196,7 +196,7 @@
             title: 'Hello World!'
         });
 
-        map.addListener('bounds_changed', function() {
+        map.addListener('click', function() {
             // Fire event to fetch data here.
             client_table.innerHTML = "";
             var lat1 = map.getBounds().getNorthEast().lat();
