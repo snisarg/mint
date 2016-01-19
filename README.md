@@ -12,7 +12,7 @@ A search engine for human behavior. Search hashtags and user accounts to view he
 <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASuAAAAJDJhOTNjMGRhLTEzMDAtNGMzZS05YTdlLTFkM2YzNjg2NTJmZA.jpg" width="250" height="250" />
 
 ### Nisarg Shah
-<img src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10376829_10152449816256615_408482732440228052_n.jpg?oh=10396706f3b338769abf1921b3e59568&oe=56877958" width="250" height="250" />
+<img src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10376829_10152449816256615_408482732440228052_n.jpg?oh=fbc411fbef64cb18e32b91361484e722&oe=56FE2058" width="250" height="250" />
 
 
 [Project Unnamed URL](https://www.pivotaltracker.com/n/projects/1446772)
