@@ -1,5 +1,7 @@
-# Project Unnamed
+# Project Mint
 A search engine for human behavior. Search hashtags and user accounts to view heatmaps showing user activity or hashtag popularity.
+
+The aim of this course project is to develop and design a highly scalable and available web service using various techniques and measure the load it can withstand using Tsung tests. 
 
 ##Team Members
 ### Ishan Roy Choudhury
@@ -15,4 +17,4 @@ A search engine for human behavior. Search hashtags and user accounts to view he
 <img src="https://scontent-sjc2-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10376829_10152449816256615_408482732440228052_n.jpg?oh=fbc411fbef64cb18e32b91361484e722&oe=56FE2058" width="250" height="250" />
 
 
-[Project Unnamed URL](https://www.pivotaltracker.com/n/projects/1446772)
+[Project Mint URL](https://www.pivotaltracker.com/n/projects/1446772)
